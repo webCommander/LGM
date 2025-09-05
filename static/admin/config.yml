@@ -1,10 +1,6 @@
 backend:
-  name: github
-  repo: webCommander/LGM  # ton repo GitHub
+  name: git-gateway
   branch: main
-  auth_type: implicit
-  auth_endpoint: https://dev-o1o6ilfvxtelfx4j.us.auth0.com/authorize
-  client_id: U11d18dlqL8ddRAlCZZemk7qPfCQa1Uk
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
