@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://mon-site.netlify.app/"
 languageCode = "fr-fr"
 title = "Mon blog de voyage"
 theme = "ananke"

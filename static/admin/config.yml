@@ -14,5 +14,5 @@ collections:
     fields:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Catégorie", name: "category", widget: "select", options: ["paris-ispahan","tour-des-zagoria","autre"] }
+      - { label: "Catégorie", name: "section", widget: "select", options: ["paris-ispahan","tour-des-zagoria","autre"] }
       - { label: "Corps de l'article", name: "body", widget: "markdown" }
