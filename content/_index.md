@@ -2,7 +2,7 @@
 title: "Accueil"
 ---
 
-Bienvenue sur mon blog de voyage !  
+Bienvenue sur mon blog de voyage ! 🌍✈️
 
 Découvrez nos aventures :
 

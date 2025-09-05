@@ -1,0 +1,7 @@
+baseURL = "https://example.com/"
+languageCode = "fr-fr"
+title = "Mon blog de voyage"
+theme = "ananke"
+
+[permalinks]
+posts = "/blog/:section/:slug/"
