@@ -1,5 +1,7 @@
-<article>
-  <h1>{{ .Title }}</h1>
-  <p>Publié le {{ .Date.Format "02 Jan 2006" }}</p>
-  <div>{{ .Content }}</div>
-</article>
+{{ define "main" }}
+  <article class="prose lg:prose-xl mx-auto">
+    <h1>{{ .Title }}</h1>
+    <p class="text-sm text-gray-500 mb-4">Publié le {{ .Date.Format "02 Jan 2006" }}</p>
+    {{ .Content }}
+  </article>
+{{ end }}

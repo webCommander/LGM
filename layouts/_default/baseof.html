@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="ma0 avenir bg-near-white">
+
+  <!-- Hero (image en haut) -->
+  <header>
+    {{ with .Params.hero }}
+      <div class="w-100">
+        <img src="{{ . }}" alt="Hero" class="w-100 vh-50 object-cover">
+      </div>
+    {{ else }}
+      <div class="w-100">
+        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+      </div>
+    {{ end }}
+  </header>
+
+  <!-- Menu principal -->
+  <nav class="pa3 pa4-ns">
+    <ul class="list flex justify-center pa0 ma0">
+      {{ range .Site.Menus.main }}
+        <li class="mh3">
+          <a href="{{ .URL }}" class="link dim dark-gray f4">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <!-- Contenu -->
+  <main class="mw8 center ph3 pt4">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <!-- Footer (du thème) -->
+  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+    <small>© {{ now.Year }} {{ .Site.Title }}</small>
+  </footer>
+
+  {{ partial "scripts.html" . }}
+</body>
+</html>

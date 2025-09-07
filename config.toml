@@ -1,7 +1,28 @@
-baseURL = "https://mon-site.netlify.app/"
+baseURL = "http://localhost:1313/"
 languageCode = "fr-fr"
 title = "Mon blog de voyage"
-theme = "ananke"
+theme = "gohugo-theme-ananke"
 
 [permalinks]
 posts = "/blog/:section/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Paris - Ispahan"
+    url = "/blog/paris-ispahan/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tour des Zagoria"
+    url = "/blog/tour-des-zagoria/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Autre"
+    url = "/blog/autre/"
+    weight = 4

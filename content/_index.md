@@ -1,5 +1,7 @@
 ---
 title: "Accueil"
+hero: "/images/hero.jpg"
+menu: main
 ---
 
 Bienvenue sur mon blog de voyage ! 🌍✈️
