@@ -6,6 +6,14 @@
     <description>Recent content in Categories on Mon blog de voyage</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
+    <lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paris-Ispahan</title>
+      <link>http://localhost:1313/categories/paris-ispahan/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/paris-ispahan/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,9 @@
+---
+title: "Lipjan / Ferizaj (Kosovo)"
+date: 2019-07-16
+draft: false
+categories: ["paris-ispahan"]
+---
+
+22 km à plat et quand il ne fait pas pas chaud (24°), ça va! Partis à 7h30, nous arrivons tranquillement vers 13H15. Notre marche se fait dans cette large plaine qui va vers la Macédoine, peut-être dit-on un plateau car nous sommes à 650 m d’altitude et cela depuis Pristina. La végétation est très différente, plus du tout méditerranéenne, adieu pour un temps aux tortues et divers « Blavors ». Pour l’instant, les paysages traversés nous rappellent un peu notre chez nous, du moins certains endroits de France. Des champs de maïs, blé, orges, des prés fauchés dans lesquels des vaches paissent en liberté, surveillées par un grand père ou un jeune garçon. Nous suivons un temps un magnifique chemin empierré, la vue est dégagée, les champs et prés et au loin les montagnes. La zone est traversée par de nombreux ruisseaux et il y a de ce fait énormément d’oiseaux. Nous sortons de notre petit paradis pour tomber dans un petit enfer, des chiens en liberté qui semblent innocents mais parmi eux un cerbère qui nous fonce dessus, toutes babines retroussées et aboyant férocement. Devant le regard de fer de mon homme, il a pilé juste 2m devant nous pour rebrousser chemin et nous avons poursuivi le notre d’un pas très rapide ! Ouf, finalement cela n’arrive pas si souvent mais cela impressionne ! Nous nous posons la question depuis un moment de trouver un moyen pour mettre en déroute les Kangales, ces chiens de troupeau en Turquie, assez redoutables apparemment , on cherche une solusse!!
+Nous trouvons à Ferizaj une ambiance fois 10 par rapport à hier, du monde plein les rues, tous les bars pleins à craquer. Un monsieur parlant très bien français nous explique que ce sont les vacances et toute la diaspora Kosovar revient au pays pour l’été. Il est vrai que nous voyons des tas de voitures étrangères mais aucun touriste, à part nous!

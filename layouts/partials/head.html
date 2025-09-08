@@ -1,3 +1,20 @@
-<link rel="stylesheet" href="{{ "ananke/css/main.css" | relURL }}">
 
-<link rel="stylesheet" href="{{ "ananke/css/main.css" | relURL }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}{{ with .Title }} - {{ . }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+  <!-- Combine tous les CSS du thème -->
+  {{ $tachyons := resources.Get "ananke/css/_tachyons.css" }}
+  {{ $styles := resources.Get "ananke/css/_styles.css" }}
+  {{ $code := resources.Get "ananke/css/_code.css" }}
+  {{ $social := resources.Get "ananke/css/_social-icons.css" }}
+
+  {{ $combined := slice $tachyons $styles $code $social | resources.Concat "css/site.css" }}
+  <link rel="stylesheet" href="{{ $combined.RelPermalink }}">
+
+
+  <!-- Favicon si tu en as -->
+  {{ with .Site.Params.favicon }}
+    <link rel="icon" href="{{ . | relURL }}">
+  {{ end }}

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+
 <head>
   {{ partial "head.html" . }}
 </head>
+
 <body class="ma0 avenir bg-near-white">
 
   <!-- Hero (image en haut) -->
@@ -22,7 +24,7 @@
   <nav class="pa3 pa4-ns">
     <ul class="list flex justify-center pa0 ma0">
       {{ range .Site.Menus.main }}
-        <li class="mh3">
+        <li class="mh3 ici">
           <a href="{{ .URL }}" class="link dim dark-gray f4">{{ .Name }}</a>
         </li>
       {{ end }}

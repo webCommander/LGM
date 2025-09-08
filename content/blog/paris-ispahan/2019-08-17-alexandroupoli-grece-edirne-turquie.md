@@ -1,0 +1,11 @@
+---
+title: "Alexandroupoli (Grèce) / Edirne (Turquie)"
+date: 2019-08-17
+draft: false
+categories: ["paris-ispahan"]
+---
+
+J135, 12 km de marche, 110 km de train, cumul à pied 2134 km, cumul total 4023 km.
+Gros orage en fin de nuit avec pas mal de pluie et c’est avec le poncho à portée de main que nous allons prendre notre train. Il fait frais, sensation que nous n’avions plus éprouvée depuis quelques temps. Après 2h dans un petit omnibus ne transportant pas grand monde, nous arrivons à Kastanies, en rase campagne, le village est tout prés et à sa sortie, le « border ». Le train lui continue vers la Bulgarie et malgré des pieds encore bien douloureux dans la nuit, nous avons décidé de marcher pour rejoindre Edirne qui n’est qu’ à une petite douzaine de km. La frontière est bien gardée, les militaires de chaque pays se font face et le contrôle plus long que d’habitude, avec même une fouille, vite expédiée, de nos sacs. A se demander si le douanier ne le faisait pas juste pour parler avec nous, il en profite pour nous conseiller un village à l’autre bout du pays lorsque nous lui disons où nous allons. Tout de suite dés le poste passé les différences avec la Grèce sont visibles, tout nous semble nouveau et c’est plein de curiosité que nous rejoignons la ville, par une route agréable, pleine de petites découvertes. Le soleil a percé les nuages et il fait chaud quand nous entrons dans Edirne au son du muezlin. Depuis très loin nous voyons les minarets des mosquées de la ville, la plus grosse à 4 minarets est impressionnante. Très vite nous sommes plongés dans l’atmosphère de l’ancienne capitale, la vieille ville grouille de marchands ambulants et de boutiques qui nous sembles très exotiques. Notre hôtel est une ancienne demeure en bois parfaitement rénovée, nous verrons beaucoup de ces belles maisons, ici l’architecture est à l’honneur.
+Pour marcher 12km, pas de problème pour Jean avec ses Birk, on se donne encore demain de repos et puis il faut vraiment découvrir cette ville qui est un trésor!
+Pour l’heure nous partons à la recherche de ciger tava, spécialité de foie de veau pané et grillé, servi avec des piments et de l’ayran ou du jus de navet aigre, espérons qu’il y aura autre chose à boire, pour la bière ce n’est peut-être pas garantie.

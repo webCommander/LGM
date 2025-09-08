@@ -1,0 +1,9 @@
+---
+title: "Shengjin / Laç Fshat (Albanie)"
+date: 2019-07-07
+draft: false
+categories: ["paris-ispahan"]
+---
+
+J94, 30 km de marche, cumul à pied 1625 km, cumul total 2857 km.
+Bon, côté satisfaction de la marche aujourd’hui, à part le rituel, à l’arrivée, de la découverte et analyse de notre trace Gpx…Déjà cela a commencé par un faux départ….Nous partions en espérant réduire à 27 km notre marche d’aujourd’hui mais il nous a fallu rebrousser chemin au bout d’un km, le sentier que nous indiquait notre navigateur n’existait plus. Nous devions circuler à travers le marais et bien non ce sera la route et encore la route. Nous serons à contresens d’un flux ininterrompu de voitures qui vont tous à la mer. Le rebord est large , pas de stress donc, c’est même plutôt distrayant car au bout de quelques km les voitures sont presque à l’arrêt. Comme nous marchons à gauche de la route par sécurité, pour voir venir l’éventuel danger, nous nous servons mutuellement de distraction les voitures et nous, ils nous klaxonnent, nous font signe et on répond! Nous sommes partis à 5H15 et à 9h on trouve qu’il fait moins chaud que les autres jours, à 11h ce ne sera plus du tout le cas, on meurt de chaud, il n’y a pas un brin de vent. Avant d’arriver à Laç oû se situe notre hôtel, nous tombons sur un spectacle stupéfiant, un ensemble industriel « Kombinati Metalurgjik » fierté du dictateur et qui est désaffecté depuis les années 90. Vraie catastrophe écologique sur des km d’énormes usines de briques et de métal engendrant une forte pollution alentours.Voilà donc pour aujourd’hui, pas très exaltant mais on a avancé et ça c’est bien! Notre hôtel est surtout un bar à coté d’une station service, c’est tout à fait dans le ton du jour. On est les seuls clients de ce motel qui a du avoir son heure de gloire, mais il y a de la bière fraîche et demain ce sera mieux!

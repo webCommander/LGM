@@ -1,7 +1,37 @@
 {{ define "main" }}
-  <article class="prose lg:prose-xl mx-auto">
-    <h1>{{ .Title }}</h1>
-    <p class="text-sm text-gray-500 mb-4">Publié le {{ .Date.Format "02 Jan 2006" }}</p>
+<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
+
+  <!-- Titre et date de l'article -->
+  <h1 class="f2">{{ .Title }}</h1>
+  <p class="gray">{{ .Date.Format "02 January 2006" }}</p>
+
+  <!-- Galerie Lightbox -->
+  {{ $article := . }}
+  <div class="flex flex-wrap mb4">
+    {{ $dateStr := $article.Date.Format "2006-01-02" }}
+    {{ range $i := seq 1 10 }}
+      {{ $imgPath := printf "/images/paris-ispahan/paris-ispahan_%s_%d.jpg" $dateStr $i }}
+      {{ if (fileExists (printf "static%s" $imgPath)) }}
+        <a href="{{ $imgPath }}" class="glightbox w-25 pa1" data-gallery="article-gallery">
+          <!-- Ici on utilise $article.Title, PAS .Title -->
+          <img src="{{ $imgPath }}" alt="{{ $article.Title }}" class="w-100 db" />
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+  
+<!-- GLightbox CSS & JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({ selector: '.glightbox' });
+</script>
+
+  <!-- Contenu de l'article -->
+  <div class="lh-copy">
     {{ .Content }}
-  </article>
+  </div>
+
+</main>
+
 {{ end }}

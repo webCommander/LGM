@@ -1,28 +1,32 @@
 baseURL = "http://localhost:1313/"
 languageCode = "fr-fr"
 title = "Mon blog de voyage"
-theme = "gohugo-theme-ananke"
+theme = "gohugo-theme-ananke23"
+defaultContentLanguage = "fr"
 
 [permalinks]
-posts = "/blog/:section/:slug/"
+posts = "/posts/:section/:slug/"
 
+[frontmatter]
+date = "date"
+
+# Menus
 [menu]
-  [[menu.main]]
-    name = "Accueil"
-    url = "/"
-    weight = 1
 
   [[menu.main]]
-    name = "Paris - Ispahan"
+    identifier = "paris-ispahan"
+    name = "Paris Ispahan"
     url = "/blog/paris-ispahan/"
     weight = 2
 
   [[menu.main]]
+    identifier = "tour-des-zagoria"
     name = "Tour des Zagoria"
     url = "/blog/tour-des-zagoria/"
     weight = 3
 
   [[menu.main]]
+    identifier = "autre"
     name = "Autre"
     url = "/blog/autre/"
     weight = 4

@@ -1,0 +1,9 @@
+---
+title: "Negotino / Demir Kapija (République de Macédoine du Nord)"
+date: 2019-07-26
+draft: false
+categories: ["paris-ispahan"]
+---
+
+J113, 20 km de marche, cumul à pied 1883 km, cumul total 3393 km.
+Même genre de marche aujourd’hui qu’hier, un peu moins jolie car dans la plaine et plus facile pour la même raison. Hier, ce que ne peut donc pas montrer GPX viewer (encore en panne aujourd’hui….grrrr) nous avons eu de bonne petites côtes éprouvantes. Mais là du plat, sentier au début entre les vignes avec une petite chute à genou dans la boue, un genou et une main gaugées comme ça se dit en bourgogne! De la boue alors qu’il fait sec? Et oui car on arrose à fond ici, nous l’avons vu hier, il y a tout un réseau d’irrigation, nous avons compris que l’eau était pompée dans un lac. C’est étonnant tous ces canaux partout, ainsi que de forts bruits d’eau, on se demande si c’est raisonnable et combien de temps ces réserves dureront. Nous marchons prés de la Vardar et trouvons à mi-chemin une pause de rêve sous d’énormes peupliers, ce sera la seule de la journée et aprés une demi-heure d’arrêt à profiter de l’ombre sur une herbe presque verte, la reprise nous surprend car le soleil en a profité pour monter et chauffer. Nous arrivons tôt à la royal Maria Winery, une grosse propriété viticole. Nous bénéficions des conseils avisés de notre jeune hôte qui est un passionné de marche et enthousiaste quand on lui parle de notre aventure. Car nous avons un problème pour la suite de notre périple, cette zone du sud de la Macédoine du nord et du nord de la Macédoine grecque est très pauvre en hébergements, il nous faut faire 34km demain, ce qui, comme dit l’autre, ne réjouit pas un des membres de l’équipe! Du coup après une bonne sieste dans notre royale suite, nous savons à quoi nous occuper, peaufiner notre itinéraire et réserver nos hébergements. Ce soir nous goutterons le vin de la propriété.
