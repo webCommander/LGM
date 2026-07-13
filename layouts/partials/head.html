@@ -12,6 +12,8 @@
 
   {{ $combined := slice $tachyons $styles $code $social | resources.Concat "css/site.css" }}
   <link rel="stylesheet" href="{{ $combined.RelPermalink }}">
+  {{ $custom := resources.Get "css/custom.css" | resources.Minify }}
+  <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
 
   <style>
     .hero {

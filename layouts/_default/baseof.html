@@ -5,7 +5,7 @@
   {{ partial "head.html" . }}
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   <!-- Hero (image en haut) -->
   {{ $hero := .Params.hero | default "/images/hero.jpg" }}
@@ -22,23 +22,26 @@
 
   <div class="site-content">
     <!-- Menu principal -->
-    <nav class="pa3 pa4-ns">
-      <ul class="list flex justify-center pa0 ma0">
-        {{ range .Site.Menus.main }}
-          <li class="mh3 ici">
-            <a href="{{ .URL }}" class="link dim dark-gray f4">{{ .Name }}</a>
-          </li>
-        {{ end }}
-      </ul>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">{{ .Site.Title }}</a>
+        <ul class="site-menu">
+          {{ range .Site.Menus.main }}
+            <li>
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
     </nav>
 
     <!-- Contenu -->
-    <main class="mw8 center ph3 pt4">
+    <main class="site-main">
       {{ block "main" . }}{{ end }}
     </main>
 
     <!-- Footer (du thème) -->
-    <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+    <footer class="site-footer">
       <small>© {{ now.Year }} {{ .Site.Title }}</small>
     </footer>
   </div>

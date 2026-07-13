@@ -1,6 +1,6 @@
 baseURL = "http://localhost:1313/"
 languageCode = "fr-fr"
-title = "Mon blog de voyage"
+title = "Les Grandes Marches"
 theme = "gohugo-theme-ananke23"
 defaultContentLanguage = "fr"
 

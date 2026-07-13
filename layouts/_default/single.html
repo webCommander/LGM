@@ -1,20 +1,22 @@
 {{ define "main" }}
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
+<article class="article-page">
 
   <!-- Titre et date de l'article -->
-  <h1 class="f2">{{ .Title }}</h1>
-  <p class="gray">{{ .Date.Format "02 January 2006" }}</p>
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>{{ .Title }}</h1>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 January 2006" }}</time>
+  </header>
 
   <!-- Galerie Lightbox -->
   {{ $article := . }}
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     {{ $dateStr := $article.Date.Format "2006-01-02" }}
     {{ range $i := seq 1 10 }}
       {{ $imgPath := printf "/images/paris-ispahan/paris-ispahan_%s_%d.jpg" $dateStr $i }}
       {{ if (fileExists (printf "static%s" $imgPath)) }}
-        <a href="{{ $imgPath }}" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          <!-- Ici on utilise $article.Title, PAS .Title -->
-          <img src="{{ $imgPath }}" alt="{{ $article.Title }}" class="w-100 db" />
+        <a href="{{ $imgPath }}" class="glightbox" data-gallery="article-gallery">
+          <img src="{{ $imgPath }}" alt="{{ $article.Title }}" />
         </a>
       {{ end }}
     {{ end }}
@@ -28,10 +30,10 @@
 </script>
 
   <!-- Contenu de l'article -->
-  <div class="lh-copy">
+  <div class="article-body">
     {{ .Content }}
   </div>
 
-</main>
+</article>
 
 {{ end }}

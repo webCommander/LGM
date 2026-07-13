@@ -4,7 +4,7 @@ hero: "/images/hero.jpg"
 menu: main
 ---
 
-Bienvenue sur mon blog de voyage ! 🌍✈️
+Bienvenue sur Les Grandes Marches ! 🌍✈️
 
 Découvrez nos aventures :
 

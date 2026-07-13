@@ -1,27 +1,29 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
+<header class="page-heading">
+  <p class="eyebrow">Toutes les étapes</p>
+  <h1>{{ .Title }}</h1>
 
-{{ if .Content }}
-  <div class="mb4">
-    {{ .Content }}
-  </div>
-{{ end }}
+  {{ if .Content }}
+    <div class="page-intro">
+      {{ .Content }}
+    </div>
+  {{ end }}
+</header>
 
-<ul class="list pl0">
+<ul class="article-list">
   {{ range .Pages }}
     {{ $imagePath := printf "/images/paris-ispahan/paris-ispahan_%s_1.jpg" (.Date.Format "2006-01-02") }}
-    <li class="mb4 flex flex-column flex-row-ns">
+    <li class="article-row">
       {{ if (fileExists (printf "static%s" $imagePath)) }}
-        <a href="{{ .RelPermalink }}" class="db w-100 w-30-ns mr4-ns mb3 mb0-ns">
-          <img src="{{ $imagePath }}" alt="{{ .Title }}" class="db w-100">
+        <a href="{{ .RelPermalink }}" class="article-row-image">
+          <img src="{{ $imagePath }}" alt="{{ .Title }}">
         </a>
       {{ end }}
-      <div>
-        <a href="{{ .RelPermalink }}" class="link dark-blue f4">
-          {{ .Title }}
-        </a>
-        <br>
-        <small>{{ .Date.Format "02 Jan 2006" }}</small>
+      <div class="article-row-content">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary | plainify | truncate 180 }}</p>
+        <a href="{{ .RelPermalink }}" class="text-link">Lire la suite <span aria-hidden="true">→</span></a>
       </div>
     </li>
   {{ end }}

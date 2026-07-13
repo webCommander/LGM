@@ -1,20 +1,36 @@
 {{ define "main" }}
-  <!-- Section derniers articles -->
-  <section>
-    <h2 class="f3 mt4">Derniers articles</h2>
-    <ul class="list pl0">
+  <header class="page-heading page-heading-home">
+    <p class="eyebrow">Carnet de voyage</p>
+    <h1>{{ .Site.Title }}</h1>
+    <p>Récits, étapes et images d'une longue marche.</p>
+  </header>
+
+  <section aria-labelledby="latest-title">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Journal de route</p>
+        <h2 id="latest-title">Derniers articles</h2>
+      </div>
+      <a href="/blog/paris-ispahan/" class="text-link">Tous les articles <span aria-hidden="true">→</span></a>
+    </div>
+
+    <ul class="article-grid">
       {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-        {{ if in .File.Dir "paris-ispahan" }}
-          <li class="mb4">
-            <a href="{{ .RelPermalink }}" class="link dim dark-blue">
-              <h3 class="f4">{{ .Title }}</h3>
+        {{ $imagePath := printf "/images/paris-ispahan/paris-ispahan_%s_1.jpg" (.Date.Format "2006-01-02") }}
+        <li class="article-card">
+          {{ if (fileExists (printf "static%s" $imagePath)) }}
+            <a href="{{ .RelPermalink }}" class="article-card-image">
+              <img src="{{ $imagePath }}" alt="{{ .Title }}">
             </a>
-            <p class="gray">{{ .Date.Format "02 Janvier 2006" }}</p>
-            <p>{{ .Summary }}</p>
-          </li>
-        {{ end }}
+          {{ end }}
+          <div class="article-card-content">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary | plainify | truncate 150 }}</p>
+            <a href="{{ .RelPermalink }}" class="text-link">Lire l'article <span aria-hidden="true">→</span></a>
+          </div>
+        </li>
       {{ end }}
     </ul>
   </section>
-
 {{ end }}
