@@ -7,14 +7,22 @@
   </div>
 {{ end }}
 
-<ul>
+<ul class="list pl0">
   {{ range .Pages }}
-    <li class="mb3">
-      <a href="{{ .RelPermalink }}" class="link dark-blue f4">
-        {{ .Title }}
-      </a>
-      <br>
-      <small>{{ .Date.Format "02 Jan 2006" }}</small>
+    {{ $imagePath := printf "/images/paris-ispahan/paris-ispahan_%s_1.jpg" (.Date.Format "2006-01-02") }}
+    <li class="mb4 flex flex-column flex-row-ns">
+      {{ if (fileExists (printf "static%s" $imagePath)) }}
+        <a href="{{ .RelPermalink }}" class="db w-100 w-30-ns mr4-ns mb3 mb0-ns">
+          <img src="{{ $imagePath }}" alt="{{ .Title }}" class="db w-100">
+        </a>
+      {{ end }}
+      <div>
+        <a href="{{ .RelPermalink }}" class="link dark-blue f4">
+          {{ .Title }}
+        </a>
+        <br>
+        <small>{{ .Date.Format "02 Jan 2006" }}</small>
+      </div>
     </li>
   {{ end }}
 </ul>

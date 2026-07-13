@@ -8,38 +8,40 @@
 <body class="ma0 avenir bg-near-white">
 
   <!-- Hero (image en haut) -->
-  <header>
-    {{ with .Params.hero }}
-      <div class="w-100">
-        <img src="{{ . }}" alt="Hero" class="w-100 vh-50 object-cover">
-      </div>
-    {{ else }}
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
-      </div>
-    {{ end }}
+  {{ $hero := .Params.hero | default "/images/hero.jpg" }}
+  <header
+    class="hero"
+    role="img"
+    aria-label="{{ .Title }}">
+    <div
+      class="hero-image"
+      data-image="{{ $hero }}"
+      style="{{ printf "background-image: url('%s')" $hero | safeCSS }}">
+    </div>
   </header>
 
-  <!-- Menu principal -->
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      {{ range .Site.Menus.main }}
-        <li class="mh3 ici">
-          <a href="{{ .URL }}" class="link dim dark-gray f4">{{ .Name }}</a>
-        </li>
-      {{ end }}
-    </ul>
-  </nav>
+  <div class="site-content">
+    <!-- Menu principal -->
+    <nav class="pa3 pa4-ns">
+      <ul class="list flex justify-center pa0 ma0">
+        {{ range .Site.Menus.main }}
+          <li class="mh3 ici">
+            <a href="{{ .URL }}" class="link dim dark-gray f4">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
 
-  <!-- Contenu -->
-  <main class="mw8 center ph3 pt4">
-    {{ block "main" . }}{{ end }}
-  </main>
+    <!-- Contenu -->
+    <main class="mw8 center ph3 pt4">
+      {{ block "main" . }}{{ end }}
+    </main>
 
-  <!-- Footer (du thème) -->
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© {{ now.Year }} {{ .Site.Title }}</small>
-  </footer>
+    <!-- Footer (du thème) -->
+    <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+      <small>© {{ now.Year }} {{ .Site.Title }}</small>
+    </footer>
+  </div>
 
   {{ partial "scripts.html" . }}
 </body>
