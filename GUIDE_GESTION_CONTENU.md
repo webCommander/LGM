@@ -1,0 +1,312 @@
+# Guide de gestion du blog Les Grandes Marches
+
+Ce guide explique comment ajouter des articles, des images, des sections et des liens dans le menu sans connaissances en développement.
+
+## Outils recommandés
+
+Utiliser deux logiciels séparés :
+
+1. **Typora** pour écrire les articles Markdown avec une présentation proche d'un traitement de texte : <https://typora.io/>
+2. **GitHub Desktop** pour télécharger les dernières modifications et publier les nouvelles : <https://desktop.github.com/>
+
+Typora est l'éditeur conseillé pour ce blog. Il affiche directement les titres, paragraphes et listes sans l'interface complexe d'un logiciel de développement.
+
+### Peut-on utiliser OpenOffice ou LibreOffice ?
+
+LibreOffice Writer récent peut ouvrir et enregistrer des fichiers Markdown `.md`. Ce n'est cependant pas l'outil recommandé pour ce blog :
+
+- il ne gère pas Git ni la publication sur GitHub ;
+- il risque de modifier la structure technique placée au début des articles ;
+- la gestion des noms et des emplacements d'images reste manuelle.
+
+Apache OpenOffice ne convient pas à ce fonctionnement. Si LibreOffice est utilisé malgré tout, toujours enregistrer le fichier au format **Markdown `.md`**, jamais en `.odt` ou `.docx`.
+
+## Les dossiers importants
+
+| Élément | Emplacement |
+|---|---|
+| Configuration et menu | `config.toml` |
+| Configuration de l'accueil | `content/_index.md` |
+| Articles Paris–Ispahan | `content/blog/paris-ispahan/` |
+| Articles Tour des Zagoria | `content/blog/tour-des-zagoria/` |
+| Autres articles | `content/blog/autre/` |
+| Images Paris–Ispahan | `static/images/paris-ispahan/` |
+| Image du bandeau | `static/images/hero.jpg` |
+
+Ne pas modifier les dossiers suivants :
+
+- `public/` : il est généré automatiquement ;
+- `themes/` : il contient le thème Ananke ;
+- `layouts/` et `assets/` : ils gèrent la présentation du site.
+
+## Avant chaque modification
+
+1. Ouvrir **GitHub Desktop**.
+2. Sélectionner le dépôt `LGM`.
+3. Cliquer sur **Fetch origin**.
+4. S'il propose ensuite **Pull origin**, cliquer dessus.
+5. Attendre la fin de la synchronisation avant de modifier les fichiers.
+
+Cette étape évite de travailler sur une ancienne version du blog.
+
+## Ajouter un article
+
+### 1. Choisir sa section
+
+Créer le fichier dans le dossier correspondant :
+
+- Paris–Ispahan : `content/blog/paris-ispahan/`
+- Tour des Zagoria : `content/blog/tour-des-zagoria/`
+- Autre : `content/blog/autre/`
+
+### 2. Nommer le fichier
+
+Utiliser cette forme :
+
+```text
+AAAA-MM-JJ-titre-court.md
+```
+
+Exemple :
+
+```text
+2026-07-13-depart-pour-le-jura.md
+```
+
+Dans le nom du fichier :
+
+- utiliser uniquement des minuscules ;
+- remplacer les espaces par des tirets `-` ;
+- ne pas utiliser d'accent, d'apostrophe ou de caractère spécial.
+
+### 3. Copier ce modèle
+
+```markdown
+---
+title: "Départ pour le Jura"
+date: 2026-07-13
+draft: false
+categories: ["autre"]
+---
+
+Texte du nouvel article.
+
+Un nouveau paragraphe commence après une ligne vide.
+```
+
+Adapter :
+
+- `title` : titre affiché sur le site ;
+- `date` : date au format `année-mois-jour` ;
+- `categories` : `paris-ispahan`, `tour-des-zagoria` ou `autre` ;
+- le texte placé après le second `---`.
+
+Ne pas supprimer les deux lignes `---` qui encadrent les informations de l'article.
+
+### Brouillon ou publication
+
+Pour publier :
+
+```toml
+draft: false
+```
+
+Pour conserver l'article comme brouillon :
+
+```toml
+draft: true
+```
+
+Un brouillon n'est pas publié par Netlify.
+
+## Ajouter des images à un article Paris–Ispahan
+
+Les images sont associées automatiquement grâce à la date de l'article.
+
+Pour un article daté du `2026-07-13`, placer les fichiers dans :
+
+```text
+static/images/paris-ispahan/
+```
+
+Puis les nommer exactement :
+
+```text
+paris-ispahan_2026-07-13_1.jpg
+paris-ispahan_2026-07-13_2.jpg
+paris-ispahan_2026-07-13_3.jpg
+```
+
+Règles :
+
+- utiliser des images `.jpg` ;
+- la date doit être identique à celle de l'article ;
+- commencer par `_1` et numéroter sans interruption ;
+- le site accepte actuellement jusqu'à 10 images par article ;
+- `_1.jpg` est la vignette affichée dans la liste des articles.
+
+### Limite actuelle
+
+L'association automatique des images est actuellement prévue uniquement pour la section Paris–Ispahan. Les articles placés dans `tour-des-zagoria` ou `autre` fonctionnent, mais leur galerie d'images n'est pas encore séparée par section.
+
+## Créer une nouvelle section
+
+Exemple : créer une section appelée « Chemin de Stevenson ».
+
+### 1. Créer le dossier
+
+Dans `content/blog/`, créer :
+
+```text
+chemin-stevenson/
+```
+
+Le nom du dossier doit être en minuscules, sans accent, avec des tirets.
+
+### 2. Créer la page de section
+
+Dans ce nouveau dossier, créer un fichier nommé obligatoirement :
+
+```text
+_index.md
+```
+
+Contenu :
+
+```markdown
+---
+title: "Chemin de Stevenson"
+---
+
+Les récits de notre marche sur le chemin de Stevenson.
+```
+
+### 3. Ajouter les articles
+
+Créer ensuite les fichiers d'articles dans :
+
+```text
+content/blog/chemin-stevenson/
+```
+
+Exemple :
+
+```text
+content/blog/chemin-stevenson/2026-07-13-le-depart.md
+```
+
+## Ajouter une section au menu
+
+Ouvrir `config.toml` et repérer la partie `# Menus`.
+
+Ajouter ce bloc après les autres liens :
+
+```toml
+  [[menu.main]]
+    identifier = "chemin-stevenson"
+    name = "Chemin de Stevenson"
+    url = "/blog/chemin-stevenson/"
+    weight = 5
+```
+
+Signification :
+
+- `identifier` : nom technique unique, sans espace ni accent ;
+- `name` : texte visible dans le menu ;
+- `url` : adresse de la section, identique au nom de son dossier ;
+- `weight` : ordre du lien dans le menu. Le plus petit nombre apparaît en premier.
+
+Ne pas ajouter de virgule entre les blocs du menu.
+
+## Modifier le menu existant
+
+Le menu principal est entièrement défini dans `config.toml`.
+
+Pour renommer un lien, modifier uniquement `name` :
+
+```toml
+name = "Paris à Ispahan"
+```
+
+Pour changer son ordre, modifier `weight`.
+
+Pour retirer temporairement un lien, supprimer son bloc complet composé des cinq lignes allant de `[[menu.main]]` à `weight`.
+
+## Gérer la page d'accueil
+
+### Changer le nom du blog
+
+Dans `config.toml`, modifier :
+
+```toml
+title = "Les Grandes Marches"
+```
+
+Ce titre est utilisé dans la navigation, l'accueil et le titre des pages du navigateur.
+
+### Changer l'image du bandeau
+
+Remplacer le fichier :
+
+```text
+static/images/hero.jpg
+```
+
+Conserver exactement le même nom. Utiliser une image horizontale de bonne qualité.
+
+Le bandeau possède un fonctionnement particulier : le premier mouvement de défilement parcourt l'image, puis le reste du site défile normalement.
+
+### Changer les textes d'introduction
+
+Les textes visibles « Carnet de voyage » et « Récits, étapes et images d'une longue marche » sont actuellement définis dans `layouts/index.html`.
+
+Ce fichier contrôle aussi le bloc « Derniers articles ». Il est préférable de demander une modification accompagnée plutôt que de l'éditer directement.
+
+Les trois derniers articles sont sélectionnés automatiquement selon leur date. Il n'est pas nécessaire de les ajouter manuellement à l'accueil.
+
+### Modifier la description de la page d'accueil
+
+Le fichier `content/_index.md` contient la configuration générale de l'accueil et le chemin du bandeau :
+
+```markdown
+---
+title: "Accueil"
+hero: "/images/hero.jpg"
+menu: main
+---
+```
+
+Ne pas modifier `hero` sauf si l'image du bandeau change également de nom ou de dossier.
+
+## Publier les modifications
+
+Après avoir ajouté ou modifié les fichiers :
+
+1. Ouvrir GitHub Desktop.
+2. Vérifier la liste des fichiers modifiés dans la colonne de gauche.
+3. Vérifier qu'aucun fichier du dossier `public/` n'apparaît.
+4. Saisir un résumé, par exemple `Ajout de l'article Départ pour le Jura`.
+5. Cliquer sur **Commit to main**.
+6. Cliquer sur **Push origin**.
+7. Attendre le déploiement automatique Netlify.
+
+Le site en ligne est généralement actualisé quelques minutes après le `Push origin`.
+
+## Corriger une erreur simple
+
+Si une page n'apparaît pas :
+
+1. vérifier que `draft` vaut `false` ;
+2. vérifier les deux blocs `---` au début du fichier ;
+3. vérifier le format de la date `AAAA-MM-JJ` ;
+4. vérifier que l'article se trouve dans le bon dossier ;
+5. vérifier que les modifications ont été envoyées avec **Push origin**.
+
+Si GitHub Desktop signale un conflit, ne pas choisir une correction au hasard. Arrêter la publication et demander de l'aide.
+
+Si une image n'apparaît pas :
+
+1. vérifier qu'elle est au format `.jpg` ;
+2. vérifier que son nom contient la date exacte de l'article ;
+3. vérifier que la première image finit par `_1.jpg` ;
+4. vérifier qu'elle se trouve dans `static/images/paris-ispahan/`.

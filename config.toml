@@ -10,6 +10,11 @@ posts = "/posts/:section/:slug/"
 [frontmatter]
 date = "date"
 
+# Un simple retour à la ligne dans un article produit un saut de ligne au rendu
+# (comportement attendu par les rédacteurs venant de Typora/WordPress)
+[markup.goldmark.renderer]
+hardWraps = true
+
 # Menus
 [menu]
 
