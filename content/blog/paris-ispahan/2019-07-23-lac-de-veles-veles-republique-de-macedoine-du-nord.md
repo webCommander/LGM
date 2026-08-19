@@ -3,6 +3,9 @@ title: "Lac de Veles / Veles (République de Macédoine du Nord)"
 date: 2019-07-23
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-23_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-23_2.jpg
 ---
 
 J110, 10 km de marche, cumul à pied 1818 km cumul total 3328 km.

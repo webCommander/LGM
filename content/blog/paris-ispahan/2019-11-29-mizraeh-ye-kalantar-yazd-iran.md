@@ -3,6 +3,8 @@ title: "Mizraeh-ye-Kalantar / Yazd (Iran)"
 date: 2019-11-29
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-29_1.jpg
 ---
 
 J194, 15 km de marche, 30 km en voiture, cumul à pied 2952 km, cumul total 6382 km. En Iran : Cumul à pied 497 km, cumul total 2215 km.

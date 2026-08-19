@@ -3,6 +3,9 @@ title: "Kiseljak / Sarajevo (Bosnie-Herzégovine)"
 date: 2019-06-12
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-12_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-12_2.jpg
 ---
 
 J 69 , 7km de marche, 30km de bus et tram, cumul à pieds 1204km, cumul total 2263km.

@@ -3,6 +3,10 @@ title: "Busovaca / Kiseljak (Bosnie-Herzégovine)"
 date: 2019-06-11
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-11_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-11_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-11_3.jpg
 ---
 
 J68, 26 km de marche, cumul à pied 1197 km, cumul total 2226 km.

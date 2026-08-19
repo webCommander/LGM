@@ -3,6 +3,8 @@ title: "Erzurum / Journée Visas (Turquie)"
 date: 2019-10-21
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-21_1.jpg
 ---
 
 Yes ! Nous les avons ! En une journée, c’est un bon résultat d’après ce que nous avons lu et entendu. Donc départ en bus demain à 4h30 pour Dogubayasit, ville frontière avec l’Iran. De là, nous chercherons un autre bus pour Tabriz où nous espérons dormir demain soir.

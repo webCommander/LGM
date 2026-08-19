@@ -3,6 +3,8 @@ title: "Ardakan / Meybod (Iran)"
 date: 2019-11-27
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-27_1.jpg
 ---
 
 J192, 13 km de marche, cumul à pied 2922 km, cumul total 6312 km. En Iran : Cumul à pied 467 km, cumul total 2155 km.

@@ -3,6 +3,10 @@ title: "Sarab / Kalian-Sarab / Nir"
 date: 2019-10-28
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-28_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-28_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-28_3.jpg
 ---
 
 Nous reprenons le compte de nos kilomètres. Nous nous étions arrêtés à 2420 km à pied et 4809 au total. Nous reprenons ces chiffres pour notre nouveau départ d’Erzurum. Depuis Erzurum jusqu’à aujourd’hui, 133 km à pied (25+5+26+26+26+25) et 765 km en bus, dolmus, taxi, stop (616+71+52+26). Nous en sommes donc à 2563 km à pied et un cumul total de 5574 km, pour J162.

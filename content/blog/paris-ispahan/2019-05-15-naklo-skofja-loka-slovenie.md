@@ -3,6 +3,8 @@ title: "Naklo / Skofja Loka (Slovénie)"
 date: 2019-05-15
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-15_1.jpg
 ---
 
 Nous l’avons dis et répêté, nous sommes bien équipés pour la pluie et le froid : Poncho, vestes avec beaucoup de Schmerber, bonnet, gants,… Nous aimerions bien ne pas avoir à le démontrer trop souvent ! La pluie, passe encore, nous entendons les annonces de sécheresse en France, mais le Froid ! Stop, no more, mai più, stoppen, ne želimo več ! Et le comble, c’est que nous nous plaindrons probablement bien vite d’avoir trop chaud…

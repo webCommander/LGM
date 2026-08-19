@@ -3,6 +3,10 @@ title: "Schauffhausen / Güttingen (Suisse)"
 date: 2019-04-13
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-13_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-13_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-13_3.jpg
 ---
 
 Aujourd’hui longue étape de 64 km ! Si. 50 km en bâteau et 14 km zu Fuß ! Le bâteau remonte le Rhin depuis les chutes (Schauffhausen) jusqu’au lac de Constance (Bodensee !). Il dessert une quinzaine de villages tout au long de ce magnifique parcours. Nous sommes allés jusqu’au terminus Kreuzlingen, juste après la ville de Constance. Cela nous permet de rattraper à peu près le planning prévu et être à Brégence dans 2 journées de marche.

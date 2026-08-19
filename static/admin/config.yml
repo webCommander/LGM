@@ -30,7 +30,6 @@ collections:
       - { label: "Photos de l'article", name: "photos", widget: "image", multiple: true, required: false, hint: "Glissez-déposez une ou plusieurs photos. La première sert de vignette dans les listes ; toutes s'affichent en galerie en haut de l'article." }
       - { label: "Trace GPX de l'étape", name: "gpx", widget: "file", required: false, media_folder: "/static/gpx", public_folder: "/gpx", hint: "Déposez le fichier .gpx de la journée : la carte du parcours s'affichera automatiquement dans l'article." }
       - { label: "Brouillon (ne pas publier sur le site)", name: "draft", widget: "boolean", default: false }
-      - { label: "Catégories", name: "categories", widget: "hidden", default: ["paris-ispahan"] }
       - { label: "Texte de l'article", name: "body", widget: "markdown" }
 
   - name: "tour-des-zagoria"
@@ -46,7 +45,6 @@ collections:
       - { label: "Photos de l'article", name: "photos", widget: "image", multiple: true, required: false, hint: "Glissez-déposez une ou plusieurs photos. La première sert de vignette dans les listes ; toutes s'affichent en galerie en haut de l'article." }
       - { label: "Trace GPX de l'étape", name: "gpx", widget: "file", required: false, media_folder: "/static/gpx", public_folder: "/gpx", hint: "Déposez le fichier .gpx de la journée : la carte du parcours s'affichera automatiquement dans l'article." }
       - { label: "Brouillon (ne pas publier sur le site)", name: "draft", widget: "boolean", default: false }
-      - { label: "Catégories", name: "categories", widget: "hidden", default: ["tour-des-zagoria"] }
       - { label: "Texte de l'article", name: "body", widget: "markdown" }
 
   - name: "autre"
@@ -62,5 +60,4 @@ collections:
       - { label: "Photos de l'article", name: "photos", widget: "image", multiple: true, required: false, hint: "Glissez-déposez une ou plusieurs photos. La première sert de vignette dans les listes ; toutes s'affichent en galerie en haut de l'article." }
       - { label: "Trace GPX de l'étape", name: "gpx", widget: "file", required: false, media_folder: "/static/gpx", public_folder: "/gpx", hint: "Déposez le fichier .gpx de la journée : la carte du parcours s'affichera automatiquement dans l'article." }
       - { label: "Brouillon (ne pas publier sur le site)", name: "draft", widget: "boolean", default: false }
-      - { label: "Catégories", name: "categories", widget: "hidden", default: ["autre"] }
       - { label: "Texte de l'article", name: "body", widget: "markdown" }

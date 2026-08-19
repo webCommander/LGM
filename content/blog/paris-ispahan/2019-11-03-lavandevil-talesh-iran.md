@@ -3,6 +3,8 @@ title: "Lavandevil / Talesh (Iran)"
 date: 2019-11-03
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-03_1.jpg
 ---
 
 J168, 25 km de marche, 50 km en voiture, cumul à pied 2690 km, cumul total 5774 km. En Iran : cumul à pied 235 km, cumul total 727 km.

@@ -3,6 +3,8 @@ title: "Marmare Ereglesi / Çanta (Turquie)"
 date: 2019-08-25
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-25_1.jpg
 ---
 
 J142, 21 km de marche, cumul à pied 2307 km, cumul total 4245 km.

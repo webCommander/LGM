@@ -3,6 +3,8 @@ title: "Vipiteno / Aïca-Rass (Italie)"
 date: 2019-04-30
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-30_1.jpg
 ---
 
 Etape lourde, assez longue et pas très « folichonne ». 27 km à pied et 5 derniers kilomètres en voiture, car l’hotel que nous avons réservé, par téléphone pour une fois, s’avére ne pas être du tout où on le pensait ! Cependant la patronne de l’hotel, fort aimable, envoie quelqu’un nous chercher en voiture. Ouf !

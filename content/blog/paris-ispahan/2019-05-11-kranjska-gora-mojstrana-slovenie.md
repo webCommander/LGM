@@ -3,6 +3,9 @@ title: "Kranjska Gora / Mojstrana (Slovenie)"
 date: 2019-05-11
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-11_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-11_2.jpg
 ---
 
 Super journée, super étape ce soir. Nos sentiments étaient un peu mitigés en partant ce matin de notre hôtel, assez grosse structure très impersonnelle, à Kranjska, village station sans véritable âme non plus. Mais à Mojstrana nous sommes enchantés et ressentons vraiment mieux « les bonnes vibrations » du pays.

@@ -3,6 +3,8 @@ title: "Karuc / Podgorica (Monténégro)"
 date: 2019-06-30
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-30_1.jpg
 ---
 
 J87, 23 km de marche, cumul à pied 1482 km, cumul total 2714 km.

@@ -3,6 +3,9 @@ title: "Ferizaj / Runjevë (Kosovo)"
 date: 2019-07-17
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-17_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-17_2.jpg
 ---
 
 J104, 21 km de marche, cumul à pied 1739 km, cumul total 3230 km.

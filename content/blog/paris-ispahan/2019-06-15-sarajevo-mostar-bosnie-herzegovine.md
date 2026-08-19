@@ -3,6 +3,8 @@ title: "Sarajevo / Mostar (Bosnie-Herzégovine)"
 date: 2019-06-15
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-15_1.jpg
 ---
 
 J72, 3 km de marche, 120 km de Bus, cumul à pied 1207 km, cumul total 2386 km.

@@ -3,6 +3,9 @@ title: "Tarvisio (Italie) / Kranjska Gora (Slovénie)"
 date: 2019-05-10
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-10_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-10_2.jpg
 ---
 
 Arrivedercci Italia, zdravo slovenia!

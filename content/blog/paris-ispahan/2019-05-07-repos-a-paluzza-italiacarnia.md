@@ -3,6 +3,9 @@ title: "Repos à Paluzza (Italia/Carnia)"
 date: 2019-05-07
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-07_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-07_2.jpg
 ---
 
 Journée repos à Paluzza. L’occasion de discuter plus longuement avec Angela et Erica de « La Marmotte » qui nous loue le gîte. Elles incarnent à merveille la gentillesse et la générosité italienne. Nous nous souviendrons de ce très bon moment d’échanges et des conseils ! Et nous porterons les T-shirts de La Marmotte !

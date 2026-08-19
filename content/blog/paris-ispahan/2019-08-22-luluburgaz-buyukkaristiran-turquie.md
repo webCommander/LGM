@@ -3,6 +3,10 @@ title: "Luluburgaz / Buyukkaristiran (Turquie)"
 date: 2019-08-22
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-22_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-22_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-22_3.jpg
 ---
 
 J140, 24 km de marche, 4 km en camion/voiture, cumul à pied 2241 km, cumul total 4160 km.

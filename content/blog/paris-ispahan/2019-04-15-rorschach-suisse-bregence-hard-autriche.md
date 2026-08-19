@@ -3,6 +3,9 @@ title: "Rorschach (Suisse) / Brégence – Hard (Autriche)"
 date: 2019-04-15
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-15_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-15_2.jpg
 ---
 
 Après la pluie, … ! Ciel bleu sans un nuage toute la journée. Incroyable comme l’atmosphère a changé tout dun coup. Hier, c’était « Winter’rrr is coming », aujourd’hui grand soleil et les Oiseaux, presque à nous casser les oreilles ! Bref, la ballade idéale, pas trop longue en plus (20 km). Et passage en Autriche. Et pour la première fois, au fond, globalement dans notre direction, des vraies Montagnes !

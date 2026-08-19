@@ -3,6 +3,12 @@ title: "Varzaneh (Iran)"
 date: 2019-11-24
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-24_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-24_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-24_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-24_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-24_5.jpg
 ---
 
 J189.

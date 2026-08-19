@@ -3,6 +3,9 @@ title: "Silivri / Kumburgaz (Turquie)"
 date: 2019-08-27
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-27_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-27_2.jpg
 ---
 
 3ème rencontre en sortant de Silivri après une belle montée, c’est Fatima qui nous hêle depuis son petit cabanon dans lequel elle vend du pain, elle nous offre du thé et un simit, ce petit pain en forme d’anneau, parsemé de graines de sésame (on en voit aussi en Grèce). Elle aimerait nous dire et savoir des tas de choses, mais nous sommes bloqués par la langue!

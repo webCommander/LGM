@@ -3,6 +3,8 @@ title: "Herceg Novi (Montenegro)"
 date: 2019-06-24
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-24_1.jpg
 ---
 
 Bravo les Bleues ! Très agréable cette petite ville d’Herceg Novi. Il y a du monde mais c’est un tourisme familial et provenant en majorité des Balkans. Nous y trouvons la beauté de ces vieilles villes du Sud, lauriers resplendissants et de toutes les couleurs, nos premiers bougainvilliers, petit marché paysan pour le picnic, une carte sim avec 100mn et 50 Go pour 15 jours et 5 euros, une pharmacie avec du GinsengPlus en phytothérapie, de la crème solaire,…

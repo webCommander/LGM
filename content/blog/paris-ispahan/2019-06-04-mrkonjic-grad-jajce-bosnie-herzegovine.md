@@ -3,6 +3,8 @@ title: "Mrkonjic Grad / Jajce (Bosnie-Herzégovine)"
 date: 2019-06-04
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-04_1.jpg
 ---
 
 Nous quittons la « République Serbe de Bosnie » pour revenir dans la Bosnie-Herzégovine avec la ville de Jajce. Nouvelle étape encore sportive aujourd’hui avec 23 km et beaucoup de dénivelé.

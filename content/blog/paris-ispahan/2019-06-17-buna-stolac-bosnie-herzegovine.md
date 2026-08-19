@@ -3,6 +3,12 @@ title: "Buna / Stolac (Bosnie-Herzégovine)"
 date: 2019-06-17
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-17_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-17_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-17_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-17_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-17_5.jpg
 ---
 
 J74, 28 km de marche, 1 km en voiture, cumul à pied 1255 km, cumul total 2441 km.

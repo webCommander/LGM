@@ -3,6 +3,9 @@ title: "Gradsko / Negotino (République de Macédoine du Nord)"
 date: 2019-07-25
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-25_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-25_2.jpg
 ---
 
 J112, 20 km de marche, cumul à pied 1863 km, cumul total 3373 km.

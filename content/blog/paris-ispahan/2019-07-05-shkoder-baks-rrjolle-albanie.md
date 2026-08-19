@@ -3,6 +3,9 @@ title: "Shkoder / Baks-Rrjollë (Albanie)"
 date: 2019-07-05
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-05_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-05_2.jpg
 ---
 
 J92, 29 km de marche, cumul à pied 1579 km, cumul total 2811 km.

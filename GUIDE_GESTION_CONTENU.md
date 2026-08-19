@@ -45,7 +45,7 @@ Apache OpenOffice ne convient pas à ce fonctionnement. Si LibreOffice est utili
 | Articles Paris–Ispahan | `content/blog/paris-ispahan/` |
 | Articles Tour des Zagoria | `content/blog/tour-des-zagoria/` |
 | Autres articles | `content/blog/autre/` |
-| Images Paris–Ispahan | `static/images/paris-ispahan/` |
+| Images Paris–Ispahan | `static/images/uploads/paris-ispahan/` |
 | Image du bandeau | `static/images/hero.jpg` |
 
 Ne pas modifier les dossiers suivants :
@@ -134,35 +134,31 @@ draft: true
 
 Un brouillon n'est pas publié par Netlify.
 
-## Ajouter des images à un article Paris–Ispahan
+## Ajouter des images à un article
 
-Les images sont associées automatiquement grâce à la date de l'article.
+La galerie d'un article est définie par la liste `photos` placée en tête de l'article. Dans l'interface `/admin/`, il suffit de glisser-déposer les photos dans le champ « Photos de l'article » — tout le reste est automatique.
 
-Pour un article daté du `2026-07-13`, placer les fichiers dans :
+En modification manuelle, ajouter la liste dans l'en-tête de l'article :
 
-```text
-static/images/paris-ispahan/
-```
-
-Puis les nommer exactement :
-
-```text
-paris-ispahan_2026-07-13_1.jpg
-paris-ispahan_2026-07-13_2.jpg
-paris-ispahan_2026-07-13_3.jpg
+```markdown
+---
+title: "Départ pour le Jura"
+date: 2026-07-13
+draft: false
+photos:
+  - /images/uploads/ma-photo-1.jpg
+  - /images/uploads/ma-photo-2.jpg
+---
 ```
 
 Règles :
 
-- utiliser des images `.jpg` ;
-- la date doit être identique à celle de l'article ;
-- commencer par `_1` et numéroter sans interruption ;
-- le site accepte actuellement jusqu'à 10 images par article ;
-- `_1.jpg` est la vignette affichée dans la liste des articles.
+- les fichiers image sont rangés dans `static/images/uploads/` (les anciennes photos Paris–Ispahan sont dans `static/images/uploads/paris-ispahan/`) ;
+- la première photo de la liste sert de vignette sur l'accueil et les pages de liste ;
+- toutes les photos s'affichent en galerie cliquable en haut de l'article, dans l'ordre de la liste ;
+- pas de limite de nombre, et le nom des fichiers est libre.
 
-### Limite actuelle
-
-L'association automatique des images est actuellement prévue uniquement pour la section Paris–Ispahan. Les articles placés dans `tour-des-zagoria` ou `autre` fonctionnent, mais leur galerie d'images n'est pas encore séparée par section.
+Un fichier `.gpx` peut aussi être associé à l'article (champ « Trace GPX de l'étape » dans `/admin/`, ou ligne `gpx: /gpx/mon-fichier.gpx` dans l'en-tête, le fichier étant placé dans `static/gpx/`) : la carte du parcours s'affiche alors automatiquement dans l'article.
 
 ## Créer une nouvelle section
 
@@ -324,4 +320,4 @@ Si une image n'apparaît pas :
 1. vérifier qu'elle est au format `.jpg` ;
 2. vérifier que son nom contient la date exacte de l'article ;
 3. vérifier que la première image finit par `_1.jpg` ;
-4. vérifier qu'elle se trouve dans `static/images/paris-ispahan/`.
+4. vérifier qu'elle se trouve dans `static/images/uploads/paris-ispahan/`.

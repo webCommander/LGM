@@ -3,6 +3,9 @@ title: "Lingenau (Autriche) / Balderschwang (Allemagne – Bayern)"
 date: 2019-04-18
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-18_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-18_2.jpg
 ---
 
 Etape plus courte aujourd’hui, heureusement car quand même 900 mètres de dénivelé. On est bien fatigués. Toujours de magnifiques paysages de montagne, sous le ciel bleu. Marche plus embêtante que d’habitude car une longue partie était en bord de route, heureusement peu fréquentée, mais assez large, donc rapide et souvent avec très peu de bas-côté. Nous sommes de nouveau en Allemagne. On s’attend à particulièrement galèrer pour trouver nos hébergements pour ce grand week-end de Pâques à venir !

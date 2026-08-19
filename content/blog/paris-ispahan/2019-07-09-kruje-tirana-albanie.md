@@ -3,6 +3,10 @@ title: "Krujë / Tirana (Albanie)"
 date: 2019-07-09
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-09_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-09_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-09_3.jpg
 ---
 
 J96, 17 km de marche, 15 km en bus, cumul à pied 1660 km, cumul total 2909 km.

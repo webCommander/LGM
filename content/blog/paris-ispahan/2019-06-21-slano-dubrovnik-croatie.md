@@ -3,6 +3,10 @@ title: "Slano / Dubrovnik (Croatie)"
 date: 2019-06-21
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-21_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-21_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-21_3.jpg
 ---
 
 J78, 7 km de marche, 25 km en voiture, cumul à pied 1329 km, cumul total 2540 km.

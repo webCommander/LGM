@@ -3,6 +3,11 @@ title: "Cetinje / Karuc (Monténégro)"
 date: 2019-06-29
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-29_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-29_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-29_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-29_4.jpg
 ---
 
 J86, 14 km de marche et 21 km en bateau ! Cumul à pied 1459 km, cumul total 2691 km.

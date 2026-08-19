@@ -3,6 +3,9 @@ title: "Herceg Novi – Risan (Monténegro)"
 date: 2019-06-25
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-25_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-25_2.jpg
 ---
 
 J82, 21 km de marche, cumul à pied 1402 km, cumul total 2613 km.

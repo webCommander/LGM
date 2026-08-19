@@ -3,6 +3,10 @@ title: "Fanari / Maroneia (Grèce)"
 date: 2019-08-13
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-13_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-13_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-13_3.jpg
 ---
 
 J131, 14 km de marche, 40 km en voiture, cumul à pied 2095 km, cumul total 3854 km.

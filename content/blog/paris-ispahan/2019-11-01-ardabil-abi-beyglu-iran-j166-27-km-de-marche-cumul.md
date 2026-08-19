@@ -3,6 +3,11 @@ title: "Ardabil / Abi Beyglu (Iran) J166, 27 km de marche, cumul à pied 2640 km
 date: 2019-11-01
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-01_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-01_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-01_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-01_4.jpg
 ---
 
 27 km pour rejoindre le petit village d’Abibiglu . Nous partons sous un soleil radieux, d’abord 4km pour sortir de la ville, puis s’ensuivront 20 longs km au bord d’une route que nous pensions petite, mais qui est en fait très fréquentée. Aucun charme sur cette route, des champs et des friches à perte de vue, pas mal d’urbanisation et de dépotoirs…..Heureusement nous arrivons souvent à marcher en contrebas de la route et à écouter un podcast et de la musique pour faire passer ce paysage un peu décevant.

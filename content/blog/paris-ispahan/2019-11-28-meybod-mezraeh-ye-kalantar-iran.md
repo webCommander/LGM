@@ -3,6 +3,9 @@ title: "Meybod / Mezraeh-ye-Kalantar (Iran)"
 date: 2019-11-28
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-28_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-28_2.jpg
 ---
 
 J193, 15 km de marche, cumul à pied 2937 km, cumul total 6327 km. En Iran, cumul à pied 482 km, cumul total 2170 km.

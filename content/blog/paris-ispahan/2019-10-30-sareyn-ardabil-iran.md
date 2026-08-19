@@ -3,6 +3,9 @@ title: "Sareyn / Ardabil (Iran)"
 date: 2019-10-30
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-30_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-30_2.jpg
 ---
 
 J164, 27 km de marche, cumul à pied: 2613 km, total: 5624 km. En Iran : cumul à pied 158 km, cumul total : 577 km.

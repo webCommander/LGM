@@ -3,6 +3,9 @@ title: "Valandovo / Dojran (République de Macédoine du Nord)"
 date: 2019-07-28
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-28_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-28_2.jpg
 ---
 
 J115, 25 km de marche, cumul à pied 1943 km, cumul total 3453 km.

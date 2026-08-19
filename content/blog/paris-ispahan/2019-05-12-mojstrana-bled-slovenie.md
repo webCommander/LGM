@@ -3,6 +3,10 @@ title: "Mojstrana / Bled (Slovénie)"
 date: 2019-05-12
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-12_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-12_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-12_3.jpg
 ---
 
 Journée Poncho ! No Sole mio ! Et fa très fredo !

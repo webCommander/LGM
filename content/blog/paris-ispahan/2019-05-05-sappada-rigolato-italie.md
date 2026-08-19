@@ -3,6 +3,10 @@ title: "Sappada / Rigolato (Italie)"
 date: 2019-05-05
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-05_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-05_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-05_3.jpg
 ---
 
 Alors nous, entrés dans la Provinzia di Venezia, nous avions inconsciemment en tête, la Lagune, les gondoles, les spritz en terrasse et les « oh sole mio » ! Bin non. Nous avons eu quand même les spritz hier, au coin du feu…

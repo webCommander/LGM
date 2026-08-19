@@ -3,6 +3,8 @@ title: "Koplik / Shkoder (Albanie)"
 date: 2019-07-04
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-04_1.jpg
 ---
 
 J91, 25 km de marche, cumul à pied 1550 km, cumul total 2782 km.

@@ -3,6 +3,12 @@ title: "Qasem-Abad / Ramsar (Iran)"
 date: 2019-11-12
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-12_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-12_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-12_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-12_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-12_5.jpg
 ---
 
 J177, 16 km de marche, 14 km en voiture, cumul à pied 2875 km, cumul total 6099 km. En Iran : cumul à pied 420 km, cumul total 1052 km.

@@ -3,6 +3,12 @@ title: "Bashm / Bandar"
 date: 2019-11-07
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-07_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-07_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-07_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-07_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-07_5.jpg
 ---
 
 J172, 17 km de marche, cumul à pied 2753 km, cumul total 5900 km. En Iran : Cumul à pied 298 km, cumul total 853 km.

@@ -3,6 +3,8 @@ title: "Paluzza / Tolmezzo (Italie/Carnia)"
 date: 2019-05-08
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-08_1.jpg
 ---
 
 Qu’on se le dise, les étapes toute courtes, rabougries, d’à peine 17/18 km, ça nous va pas ! Faut qu’on étire, qu’on mette un peu de pilipili… Comme çà, on arrive à un 21,5 km plus présentable.

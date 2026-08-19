@@ -3,6 +3,9 @@ title: "Baks Rrjollë / Shengjin (Albanie)"
 date: 2019-07-06
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-06_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-06_2.jpg
 ---
 
 J93, 16 km de marche, cumul à pied 1595 km, cumul total 2827 km.

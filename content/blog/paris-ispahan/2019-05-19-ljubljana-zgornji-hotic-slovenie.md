@@ -3,6 +3,12 @@ title: "Ljubljana / Zgornji Hotic (Slovénie)"
 date: 2019-05-19
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-19_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-19_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-19_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-19_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-19_5.jpg
 ---
 
 C’est drôle, cette marche avait tous les critères objectifs de l’étape de Brutes : Grande longueur (31 km), peu d’intérêt, principalement en bord de route / bord de voie ferrée, paysages assez sauvages (au sens « pas très beaux ») et donc goudron, goudron, goudron !… Et puis non ! Enfin, pas complètement, grace à quelques rencontres…

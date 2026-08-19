@@ -3,6 +3,8 @@ title: "Gornja Trebeusa / Travnik (Bosnie-Herzégovine)"
 date: 2019-06-08
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-08_1.jpg
 ---
 
 C’est avec juste un café dans le ventre que nous quittons notre étrange hébergement, un appartement tout neuf (mais pas tout à fait terminé) dans la même enceinte qu’un centre sportif/medresa. Ici nous sommes en terrain musulman, les enfants nous lancent des salamalekum! Objectif donc trouver un endroit pour nous sustenter à Turbe, 5km de là, marche au bord de la route. On trouvera qui un sandwich qui une crêpe au chocolat, on oublie nos tartines beurres confiture, notre petit déjeuner est en train de muter par ici…!

@@ -3,6 +3,11 @@ title: "Tabriz / khajeh / Sheykh Rajab / Mehraban (Iran)"
 date: 2019-10-26
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-26_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-26_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-26_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-26_4.jpg
 ---
 
 Notre journée démarre avec un petit déjeuner en famille, avec omelette faite par Mohammad, du pain frais, miel, crème, beurre, fruits secs et thé. C’est le petit déjeuner Azéri, on a compris que dans cette région les gens sont en majorité Azéri et parlent donc le persan et l’azéri qui est très proche du turc. A l’école il y a les deux langues, plus l’anglais et l’arabe qui est la langue de la religion, c’est du moins comme ça à Tabriz.

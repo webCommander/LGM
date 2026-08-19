@@ -3,6 +3,9 @@ title: "Pareh Sar / Bashm (Iran)"
 date: 2019-11-06
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-06_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-06_2.jpg
 ---
 
 J171, 22 km de marche, 16 km en voiture, cumul à pied, 2736 km, cumul total 5883 km. En Iran : Cumul à pied 281 km, cumul total 836 km.

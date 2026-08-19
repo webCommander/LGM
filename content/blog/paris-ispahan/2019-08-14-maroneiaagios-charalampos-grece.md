@@ -3,6 +3,11 @@ title: "Maroneia/Agios Charalampos (Grèce)"
 date: 2019-08-14
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-14_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-14_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-14_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-14_4.jpg
 ---
 
 Magnifique temps de repos à Maroneia !

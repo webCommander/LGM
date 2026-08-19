@@ -3,6 +3,9 @@ title: "Edirne / Demirhanli / Habiller / Havsa (Turquie)"
 date: 2019-08-19
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-19_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-19_2.jpg
 ---
 
 J137, 26 km de marche, 16 km de voiture, cumul à pied 2160 km, cumul total 4065 km.

@@ -3,6 +3,9 @@ title: "Lasku Kalayeh / Lahijan (Iran)"
 date: 2019-11-10
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-10_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-10_2.jpg
 ---
 
 J175, 27 km de marche, cumul à pied 2833 km, cumul total 6008 km. En Iran : cumul à pied 378 km, cumul total 961 km.

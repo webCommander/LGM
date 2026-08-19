@@ -3,6 +3,8 @@ title: "Pristina / Gracanica (Kosovo)"
 date: 2019-07-14
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-14_1.jpg
 ---
 
 J101, 11 km de marche, cumul à pied 1678 km, cumul total 3169 km.

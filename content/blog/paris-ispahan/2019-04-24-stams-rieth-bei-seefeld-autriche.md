@@ -3,6 +3,10 @@ title: "Stams / Rieth bei Seefeld (Autriche)"
 date: 2019-04-24
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-24_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-24_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-24_3.jpg
 ---
 
 Une étape de Routard ! Ah çà, nous ne sommes plus dans le pastoral et le Holdiridia. Nous sommes dans l’efficace, le on the road, le nach Innsbruck ! Drôle de marche dans la grande vallée, qu’on imagine filer droit vers la capitale régionale. 25 km. Nous sommes dans les cultures de plaines, coincés entre, d’un côté, une ligne Très Haute Tension, une grande route, une ligne de chemin de fer très active et, de l’autre côté, la grande rivière Inn (Innsbruck : le Pont sur l’Inn), une autoroute, et une autre ligne THT. Et avec un vent contraire bien costaud, pleine poire ! à donner envie d’aller dans l’autre sens… Mais on avance bien quand même, çà file droit ! et plat !

@@ -3,6 +3,9 @@ title: "Tourisme à Ljubljana (Slovénie)"
 date: 2019-05-17
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-17_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-17_2.jpg
 ---
 
 Enfin une journée bien ensoleillée ! Nuages encore bien présents mais une belle opportunité pour voir la ville. Au menu : rencontre avec une grande « parada » sympa avec plein de jeunes qui dansent sur une musik à donf (sponsorisée par unTélecom du pays), café en terrasse d’un grand immeuble (ambiance mitteleuropa et vue 360° sur Ljubljana), visite d’un marché ouvert et couvert, déjeuner dehors sur une sorte de marché de restaurateurs (tous les vendredi), montée (à pied !) au Château de Ljubljana, petit temps calme dans l’herbe au soleil, ballade en bateau avec guide en Anglais, encore une petite glace en terrasse, et soirée Opéra (Lucia of Lammermoor) avant une rapide dernière assiette de pâtes à notre auberge de jeunesse.

@@ -3,6 +3,8 @@ title: "Bregenz / Lingenau (Autriche)"
 date: 2019-04-17
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-17_1.jpg
 ---
 
 22,5 km et 1100m de dénivelé, les « hostilités » ont vraiment commencé aujourd’hui… Mais en fait non, toujours beau temps, paysages de moyenne montagne de cartes postales, et, à l’arrivée, même pas si ruinés que ce qu’on craignait au départ.

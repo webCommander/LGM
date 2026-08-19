@@ -3,6 +3,8 @@ title: "Tuzi (Monténégro) / Koplik (Albanie)"
 date: 2019-07-03
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-03_1.jpg
 ---
 
 J90, 30 km de marche, cumul à pied 1525 km, cumul total 2757 km.

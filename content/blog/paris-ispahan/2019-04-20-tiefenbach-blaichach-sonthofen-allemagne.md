@@ -3,6 +3,9 @@ title: "Tiefenbach / Blaichach-Sonthofen (Allemagne)"
 date: 2019-04-20
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-20_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-20_2.jpg
 ---
 
 Etape très cool aujourd’hui, 21 km quand même mais globalement en descente et dans des coins de paradis pour activités « outdoor ». Ce qu’on voit partout : VTTistes, randonneurs, joggers, parapentistes (énormément), planeurs, kayakistes, Rafts. Cette montagne/campagne déborde de vie et d’organisation. On pense à tous nos coins de France à l’abandon, désertés… Pour l’instant, même dans les endroits les plus reculés, nous n’avons pas vu une seule maison délaissée (s’il y a parfois des ronces, elles sont palissées !).

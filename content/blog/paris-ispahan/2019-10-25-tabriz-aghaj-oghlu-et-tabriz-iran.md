@@ -3,6 +3,12 @@ title: "Tabriz / Aghaj Oghlu et… Tabriz (Iran)"
 date: 2019-10-25
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-25_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-25_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-25_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-25_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-25_5.jpg
 ---
 
 Incroyable journée, nous en avons pris plein les mirettes et plein le coeur ! Plein les jambes aussi, avec 26 kilomètres et une sacrée montée !

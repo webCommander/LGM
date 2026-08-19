@@ -3,6 +3,8 @@ title: "Gruda (Croatie) / Herceg Novi (Montenegro)"
 date: 2019-06-23
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-23_1.jpg
 ---
 
 J80, 20 km de marche, cumul à pied 1381 km, cummul total 2592 km.

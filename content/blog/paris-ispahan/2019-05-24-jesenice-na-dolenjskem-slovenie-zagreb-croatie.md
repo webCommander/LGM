@@ -3,6 +3,9 @@ title: "Jesenice na Dolenjskem (Slovénie) / Zagreb (Croatie)"
 date: 2019-05-24
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-24_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-24_2.jpg
 ---
 
 Et bien non, nous n’avons pas vu d’ours Slovène ! Au contraire, lors de pratiquement toutes nos rencontres, superficielles ou plus soutenues, toujours éphémères, nous avons ressenti des gens ouverts, engageants, curieux, rapidement enthousiastes, fiers de leur Slovénie et fiers d’appartenir à l’Europe et heureux ! Nous aurons peut-être plus de chance en Croatie, il paraît qu’il y en a aussi…

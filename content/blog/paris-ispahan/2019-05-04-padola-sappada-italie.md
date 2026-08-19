@@ -3,6 +3,9 @@ title: "Padola / Sappada (Italie)"
 date: 2019-05-04
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-04_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-04_2.jpg
 ---
 
 Nous arrivons tôt à notre étape du jour, 15H, alors pour profiter de la fin de l’aprés-midi et ne pas se lasser tout petit blog!

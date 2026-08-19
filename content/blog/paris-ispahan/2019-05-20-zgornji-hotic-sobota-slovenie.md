@@ -3,6 +3,10 @@ title: "Zgornji Hotic / Sobota (Slovénie)"
 date: 2019-05-20
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-20_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-20_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-20_3.jpg
 ---
 
 Dur dur cette journée. 26 kilomètres, nous l’avions sans doute inconsciemment sous estimée après nos 31 km presque « fingers in the nooze » d’hier. Mais aujourd’hui, il y avait de la montée ! Et souvent raide ! Et en cerise sur le gâteau, pas un commerce de toute la journée, alors que nous comptions acheter quelques victuailles en route et du pain. Macache, besef, bono ! Le picnic fut donc frugal. Même si nous avions eu un peu avant, le p’tit coup de gnôle, offert « en passant » (il est vrai que cette fois, nous avions pris l’initiative en demandant de l’eau).

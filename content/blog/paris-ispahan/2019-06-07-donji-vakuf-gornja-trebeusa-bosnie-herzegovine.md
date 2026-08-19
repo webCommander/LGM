@@ -3,6 +3,9 @@ title: "Donji Vakuf / Gornja Trebeusa (Bosnie-Herzégovine)"
 date: 2019-06-07
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-07_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-07_2.jpg
 ---
 
 1000 ! Non, ce n’est pas la nostalgie des 1000 bornes, mais la petite fierté d’un passage à 1000 mètres d’altitude quand même… Bon, nous partions de 600m, mais avec la chaleur qui nous tombe dessus tout d’un coup après plusieurs semaines de sale temps, les dénivelés se font rudes ! Heureusement qu’un vrai petit vent, associé à l’altitude, nous a maintenu une ambiance agréable toute la journée.

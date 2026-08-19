@@ -3,6 +3,10 @@ title: "Innsbruck / Gries am Brenner (Autriche)"
 date: 2019-04-28
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-28_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-28_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-28_3.jpg
 ---
 
 Changement d’ambiance tout d’un coup. Comme prévu, après le foehn, le froid ! Il a neigé assez bas cette nuit et tout s’est de nouveau blanchi sur les hauteurs. Heureusement, nous avions prévu une étape assez courte, avec une première partie en bus pour sortir d’Innsbruck et passer aussi les premières bosses de la vallée étroite que nous devons suivre. Au final, 22 km de bus et 14 km de marche, menés assez rapidement à cause du froid.

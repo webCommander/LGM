@@ -3,6 +3,8 @@ title: "Bihac / Vranjska (Bosnie-Herzégovine)"
 date: 2019-05-30
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-30_1.jpg
 ---
 
 Bon, il ne faudrait pas que ce blog devienne un mur des lamentations. Et pourtant, ce n’est toujours pas la joie. Pluie encore pendant toute la marche. Un mot nous est venu souvent aujourd’hui : improbable. Une journée à l’ambiance « black mirror », pour les amateurs, ou pour les plus classiques, une ambiance de certaines scènes de « Buffet froid ». La pluie, des chiens errants, parfois agressifs, 20 km de chemin en pleine nature, un bête chemin, large, carrossable, souvent à moitié inondé, parfois agrémenté de décharges sauvages, parfois une ou deux « maisons », sinistres, désertes. Et la rencontre avec Hasan, dans sa golf hors d’âge. Pas question de nous laisser continuer à pied ! À cause des ours et des loups ! Même si nous pensions qu’il y avait peu de chance que ces bêtes apprécient « l’Enfer » de Dante expliqué dans les Cahiers de l’histoire sur France Culture, nous avons lâché l’affaire… Hasan fait donc 1/2 tour et nous emmène 5 km plus loin, à fond la caisse sur ce chemin défoncé. A partir de là, plus de danger selon lui !…

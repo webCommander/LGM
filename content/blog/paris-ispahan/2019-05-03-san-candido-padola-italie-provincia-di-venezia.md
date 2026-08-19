@@ -3,6 +3,9 @@ title: "San Candido / Padola (Italie – Provincia di Venezia)"
 date: 2019-05-03
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-03_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-03_2.jpg
 ---
 
 Pique et Pique et colégram…

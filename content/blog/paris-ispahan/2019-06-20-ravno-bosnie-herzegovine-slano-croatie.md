@@ -3,6 +3,10 @@ title: "Ravno (Bosnie-Herzégovine) / Slano (Croatie)"
 date: 2019-06-20
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-20_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-20_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-20_3.jpg
 ---
 
 J77, 23 km de marche, cumul à pied 1322 km, cumul total 2508 km.

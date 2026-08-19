@@ -3,6 +3,9 @@ title: "Jajce / Vinac (Bosnie-Herzégovine)"
 date: 2019-06-05
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-05_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-05_2.jpg
 ---
 
 Après 3 journées de marche assez sportives, nous étions contents d’avoir aujourdhui une étape assez courte 15km, pour cause d’hébergement. Et heureusement, car le dénivelé était bien là (encore un pays aux mille collines !), avec une « navigation » en forêt toujours un peu anxiogène.

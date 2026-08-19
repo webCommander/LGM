@@ -3,6 +3,11 @@ title: "Sobota / Vrh pri Bostanju (Slovénie)"
 date: 2019-05-21
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-21_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-21_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-21_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-21_4.jpg
 ---
 
 Bien agréable étape à Sobota à la Gostisce Celestina tenue par un couple d’hoteliers charmants qui nous ont dorlotés, nous étions les seuls clients. Madame aux fourneaux, Monsieur en salle, nous parlons dans un jargon allemand émaillé de mots italiens, le pain de la casa, la confiture itou….on peut penser que les délicieuses truites étaient du coin aussi, pas de bonne auberge slovène qui se respecte sans « trout » au menu

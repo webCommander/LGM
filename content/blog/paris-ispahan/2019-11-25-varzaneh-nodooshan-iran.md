@@ -3,6 +3,12 @@ title: "Varzaneh / Nodooshan (Iran)"
 date: 2019-11-25
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-25_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-25_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-25_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-25_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-25_5.jpg
 ---
 
 J190, 120 km en voiture. Cumul à pied 2895 km, cumul total 6214 km.

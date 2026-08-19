@@ -3,6 +3,11 @@ title: "Banja Luka / Krupi na Vrbsu (Bosnie-Herzégovine)"
 date: 2019-06-02
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-02_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-02_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-02_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-02_4.jpg
 ---
 
 1000 bornes !

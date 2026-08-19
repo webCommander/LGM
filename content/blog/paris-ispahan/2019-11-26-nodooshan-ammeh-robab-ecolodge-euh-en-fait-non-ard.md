@@ -3,6 +3,11 @@ title: "Nodooshan / Ammeh Robab Ecolodge, euh en fait non… Ardakan (Iran)"
 date: 2019-11-26
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-26_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-26_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-26_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-26_4.jpg
 ---
 
 J191, 14 km de marche, 71 km en voiture. Cumul à pied 2909 km, cumul total 6299 km. En Iran : Cumul à pied 454 km, cumul total 2142 km.

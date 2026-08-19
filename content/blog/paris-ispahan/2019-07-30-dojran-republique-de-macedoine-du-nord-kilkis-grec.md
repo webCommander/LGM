@@ -3,6 +3,9 @@ title: "Dojran (République de Macédoine du Nord) / Kilkis (Grèce !)"
 date: 2019-07-30
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-30_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-30_2.jpg
 ---
 
 J117, 30 km de marche, cumul à pied 1978 km, cumul total 3488 km.

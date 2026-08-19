@@ -3,6 +3,8 @@ title: "Oresani / Lake of Veles (République de Macédoine du Nord)"
 date: 2019-07-22
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-22_1.jpg
 ---
 
 J109, 25 km de marche, cumul à pied 1808 km, cumul total 3318 km.

@@ -3,6 +3,9 @@ title: "Runjevë (Kosovo) / Skopje (République de Macédoine du Nord)"
 date: 2019-07-18
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-18_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-07-18_2.jpg
 ---
 
 Lundi 16 et mardi 17 Décembre 2019 – D Day : Departure Day from Tehran (Iran)

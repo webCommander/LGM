@@ -3,6 +3,9 @@ title: "Repos et Tourisme à Schaffhausen"
 date: 2019-04-12
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-12_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-12_2.jpg
 ---
 
 Jean : Sec et assez ensoleillé aujourd’hui, avec un petit vent (très) frais ! Schaffhausen est une ville magnifique, la montée (encore !) au château Munot vaut le coup d’oeil et puis, bien sur, les chutes du Rhin !

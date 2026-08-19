@@ -3,6 +3,9 @@ title: "Havsa / Babaeski (Turquie)"
 date: 2019-08-20
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-20_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-08-20_2.jpg
 ---
 
 J138, 28 km de marche, 10 km de voiture/taxi, cumul à pied 2188 km, cumul total 4103 km.

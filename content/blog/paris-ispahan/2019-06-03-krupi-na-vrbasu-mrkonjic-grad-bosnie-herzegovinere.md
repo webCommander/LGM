@@ -3,6 +3,9 @@ title: "Krupi na Vrbasu / Mrkonjic Grad (Bosnie-Herzégovine/République Serbe d
 date: 2019-06-03
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-03_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-03_2.jpg
 ---
 
 Encore pas faciles à prononcer pour nous ces 2 villages… Le « Vrbasu », on s’entraîne depuis hier, on le tient maintenant. Pour le « Mrkonjic », nous sommes encore en apprentissage, difficile. En tous cas, tout va mieux et effectivement, les feux ont l’air de se remettre un peu plus au vert, pour les as de la godasse que nous sommes !

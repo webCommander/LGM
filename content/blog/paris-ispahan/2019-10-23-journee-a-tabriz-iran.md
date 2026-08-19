@@ -3,6 +3,10 @@ title: "Journée à Tabriz (Iran)"
 date: 2019-10-23
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-23_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-23_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-23_3.jpg
 ---
 
 Mission accomplie pour cette première journée à Tabriz, nous avons notre carte SIM iranienne, nous avons changé de l’argent à un taux correct et commencé à visiter la ville. Beaucoup de rencontres aussi, d’abord Ali, marchand de tapis qui nous guide dans cet extraordinaire grand bazar (75hectares…!), puis Negor jeune étudiante en master de nano-médecine et cerise sur le gâteau, Nasser, employé par le ministère du tourisme iranien. Nasser nous a donné des conseils précieux dans un français parfait, nous l’avons rencontré dans son bureau et avons passé plus d’une heure et demie avec lui. Il nous a écrit un petit mot en farsi que l’on présentera lorsqu’on cherchera où dormir dans les villages sans hôtel. Nous avons parlé de la ville mais aussi de notre itinéraire, de cuisine et de certaines règles à observer (par exemple, ne pas se moucher au restaurant, c’est très impoli!).

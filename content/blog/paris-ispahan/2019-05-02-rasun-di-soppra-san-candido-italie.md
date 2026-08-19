@@ -3,6 +3,14 @@ title: "Rasun di Soppra / San Candido (Italie)"
 date: 2019-05-02
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-02_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-02_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-02_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-02_4.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-02_5.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-02_6.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-02_7.jpg
 ---
 
 Les Candiago sont à San Candido ! Au rugby, quand on s’est fait desosser par un monstre de 120 kg qui tape le 100 mètres en un peu moins de 11 secondes, on doit dire « Ouh là, ça pique ! » (important d’avoir un franc sourire en le disant). Et bien pour cette étape, on peut dire « çà pique ! ».

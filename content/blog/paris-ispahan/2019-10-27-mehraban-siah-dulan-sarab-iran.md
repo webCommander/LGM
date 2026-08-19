@@ -3,6 +3,8 @@ title: "Mehraban / Siah Dulan / Sarab (Iran)"
 date: 2019-10-27
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-27_1.jpg
 ---
 
 Après un petit déjeuner sorti du sac devant l’œil de notre cerbère, le gardien de l’école qui n’est pas un rigolo (nous avons du montrer nos passeports pour qu’il soit sur que nous soyons mariés), nous partons marcher dans la fraîcheur matinale. Nous sommes à 1700m d’altitude sur un haut plateau. Nous laissons derrière nous les petites collines colorées pour de hautes montagnes. Nous verrons plus loin briller dans un rayon de soleil qui réussit à percer les nuages, le dôme brillant d’un observatoire. Nous traversons toute une série de petits villages. Ici, s’il n’y avait pas d’homme, il n’y aurait aucune végétation, les arbres que l’on voit sont autour des villages, peupliers et fruitiers. Il y a d’immenses champs céréaliers, tous vides en ce moment sauf quelques uns dans lesquels du blé commence à sortir. Beaucoup de troupeaux de chèvres et moutons mélangés avec leurs chiens leurs gardiens et leurs ânes bâtés.

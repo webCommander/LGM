@@ -3,6 +3,8 @@ title: "Travnik / Busovaca (Bosnie-Herzégovine)"
 date: 2019-06-10
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-06-10_1.jpg
 ---
 
 J67, 28 km de marche, cumul à pied 1171 km, cumul total 2200 km.

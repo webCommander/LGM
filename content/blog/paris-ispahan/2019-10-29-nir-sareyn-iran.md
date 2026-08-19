@@ -3,6 +3,8 @@ title: "Nir / Sareyn (Iran)"
 date: 2019-10-29
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-10-29_1.jpg
 ---
 
 J163, 23 km de marche, cumul à pied 2586 km, cumul total 5597 km. En Iran : cumul à pied 131 km, cumul total 550 km.

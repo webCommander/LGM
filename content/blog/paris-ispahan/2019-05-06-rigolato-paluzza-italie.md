@@ -3,6 +3,9 @@ title: "Rigolato / Paluzza (Italie)"
 date: 2019-05-06
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-06_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-06_2.jpg
 ---
 
 Quel incroyable changement d’ambiance ! En 24 h, 24 km et quelques centaines de mètres de dénivelé, nous sommes passés d’un rude hiver à une journée printanière ensoleillée ! Nous saluons Flavio, un grand amoureux de la France, qui parle très bien notre langue et qui a tout fait pour rendre notre séjour agréable, ce qu’il fut!

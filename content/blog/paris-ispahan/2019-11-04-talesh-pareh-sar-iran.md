@@ -3,6 +3,11 @@ title: "Talesh / Pareh Sar (Iran)"
 date: 2019-11-04
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-04_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-04_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-04_3.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-04_4.jpg
 ---
 
 J169, 24 km de marche, 47 km en voiture, cumul à pied 2714 km, cumul total 5845 km. En Iran : cumul à pied 259 km, cumul total 798 km.

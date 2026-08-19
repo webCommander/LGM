@@ -3,6 +3,9 @@ title: "Eglisau/Schaffhausen (Suisse)"
 date: 2019-04-11
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-11_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-04-11_2.jpg
 ---
 
 A peine 20 km et arrivés à 15h15, super !

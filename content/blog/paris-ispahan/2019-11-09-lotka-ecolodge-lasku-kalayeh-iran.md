@@ -3,6 +3,9 @@ title: "Lotka Ecolodge / Lasku kalayeh (Iran)"
 date: 2019-11-09
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-09_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-11-09_2.jpg
 ---
 
 J174, 25 km de marche, 27 km en voiture, cumul à pied 2806 km, cumul total 5981 km. En Iran : Cumul à pied 351 km, cumul total 934 km.

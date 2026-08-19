@@ -3,6 +3,9 @@ title: "Bled / Naklo (Slovénie)"
 date: 2019-05-14
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-14_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-14_2.jpg
 ---
 
 Nous avons quitté Bled un peu frustrés, avec le sentiment de ne pas avoir pu apprécier pleinement ce qui semble bien un petit coin de paradis. Un endroit où l’on se dit qu’on aimerait bien y revenir, plus longuement et avec un meilleur temps ! Malgré la pluie et le vent, nous avons pleinement profité de notre journée hier, découvrant une petite perle de centre de wellness, loin des stéréotypes de spa très chics. Des saunas au bois, dont un espace avec un four intégré et du pain en train de cuire! Un massages adapté à nos besoins, les pieds mollets, épaules et bras, le bonheur. Une autre raison de retourner à Bled(oui, c’est le vrai nom!).

@@ -3,6 +3,10 @@ title: "Tolmezzo / Moggio Udinese / Tarvisio (Italie – PréAlpes Juliennes)"
 date: 2019-05-09
 draft: false
 categories: ["paris-ispahan"]
+photos:
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-09_1.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-09_2.jpg
+  - /images/uploads/paris-ispahan/paris-ispahan_2019-05-09_3.jpg
 ---
 
 Journée de marche sous la pluie avec quelques beaux moments de soleil en milieu de journée, à l’arrivée à pied à Moggio, puis à la descente du bus à Tarvisio. Nous sommes restés à peu près au sec, sauf les pieds qui ont commencé à prendre l’eau à partir de la 3ème heure de marche sous une pluie non violente mais pugnace.
