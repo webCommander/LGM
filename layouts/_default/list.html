@@ -12,9 +12,9 @@
 
 <ul class="article-list">
   {{ range .Pages }}
-    {{ $imagePath := printf "/images/paris-ispahan/paris-ispahan_%s_1.jpg" (.Date.Format "2006-01-02") }}
+    {{ $imagePath := partial "thumbnail.html" . }}
     <li class="article-row">
-      {{ if (fileExists (printf "static%s" $imagePath)) }}
+      {{ if $imagePath }}
         <a href="{{ .RelPermalink }}" class="article-row-image">
           <img src="{{ $imagePath }}" alt="{{ .Title }}">
         </a>
