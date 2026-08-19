@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,67 +46,76 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Jajce / Vinac (Bosnie-Herzégovine)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Jajce / Vinac (Bosnie-Herzégovine)</h1>
+    <time datetime="2019-06-05">05 June 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Jajce / Vinac (Bosnie-Herzégovine)</h1>
-  <p class="gray">05 June 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-06-05_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-06-05_1.jpg" alt="Jajce / Vinac (Bosnie-Herzégovine)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-06-05_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-06-05_1.jpg" alt="Jajce / Vinac (Bosnie-Herzégovine)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-06-05_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-06-05_2.jpg" alt="Jajce / Vinac (Bosnie-Herzégovine)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-06-05_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-06-05_2.jpg" alt="Jajce / Vinac (Bosnie-Herzégovine)" />
         </a>
       
     
@@ -121,24 +153,87 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>Après 3 journées de marche assez sportives, nous étions contents d’avoir aujourdhui une étape assez courte 15km, pour cause d’hébergement. Et heureusement, car le dénivelé était bien là (encore un pays aux mille collines !), avec une « navigation » en forêt toujours un peu anxiogène.
-Lorsque l’on a du chemin à faire, nous regardons sur google earth s’il existe, ce qui est en général le cas, par contre certaines portions , comme hier ne sont pas beaucoup empruntées et rendues peu pratiquables par les pluies diluviennes de ce mois de mai. Là le temps est encore à l’orage, ça tonne et puis ça tombe!! Nous arrivons au Motel Stecak assez tôt (14h30) et avant l’averse – en ayant eu le temps ce matin de visiter l’ethno-musée de Jajce – bien fatigués et encore une fois tout crottés !
-Ce soir il y a une fête ouverte à tous , payante,2,50 euros, ici les prix sont très bas, on peut manger à 2 pour 15 euros. Il y a une chanteuse apparement, on va aller voir ça et peut-être bien qu’après nous mettrons les boules quiès, mais ils sont sympas, ils nous avaient prévenus et nous ont mis dans le coin le plus calme. Sinon le temps est aussi rythmé par le muezzin, l’appel à la prière, la nuit passée il y en a eu un, très beau, très mélodieux, mais à 4h30, c’est normal ça?
-J62, 15 km de marche, cumul à pied 1082 km, cumul total 2111 km.</p>
+  <div class="article-body">
+    <p>Après 3 journées de marche assez sportives, nous étions contents d’avoir aujourdhui une étape assez courte 15km, pour cause d’hébergement. Et heureusement, car le dénivelé était bien là (encore un pays aux mille collines !), avec une « navigation » en forêt toujours un peu anxiogène.</p>
+<p>Lorsque l’on a du chemin à faire, nous regardons sur google earth s’il existe, ce qui est en général le cas, par contre certaines portions , comme hier ne sont pas beaucoup empruntées et rendues peu pratiquables par les pluies diluviennes de ce mois de mai. Là le temps est encore à l’orage, ça tonne et puis ça tombe!! Nous arrivons au Motel Stecak assez tôt (14h30) et avant l’averse – en ayant eu le temps ce matin de visiter l’ethno-musée de Jajce – bien fatigués et encore une fois tout crottés !</p>
+<p>Ce soir il y a une fête ouverte à tous , payante,2,50 euros, ici les prix sont très bas, on peut manger à 2 pour 15 euros. Il y a une chanteuse apparement, on va aller voir ça et peut-être bien qu’après nous mettrons les boules quiès, mais ils sont sympas, ils nous avaient prévenus et nous ont mis dans le coin le plus calme. Sinon le temps est aussi rythmé par le muezzin, l’appel à la prière, la nuit passée il y en a eu un, très beau, très mélodieux, mais à 4h30, c’est normal ça?</p>
+<p>J62, 15 km de marche, cumul à pied 1082 km, cumul total 2111 km.</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/categories/paris-ispahan/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Tour-Des-Zagoria</title>
+      <link>http://localhost:1313/categories/tour-des-zagoria/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/tour-des-zagoria/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,67 +46,76 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Kotor / Njegusi (Monténégro)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Kotor / Njegusi (Monténégro)</h1>
+    <time datetime="2019-06-27">27 June 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Kotor / Njegusi (Monténégro)</h1>
-  <p class="gray">27 June 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-06-27_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-06-27_1.jpg" alt="Kotor / Njegusi (Monténégro)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-06-27_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-06-27_1.jpg" alt="Kotor / Njegusi (Monténégro)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-06-27_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-06-27_2.jpg" alt="Kotor / Njegusi (Monténégro)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-06-27_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-06-27_2.jpg" alt="Kotor / Njegusi (Monténégro)" />
         </a>
       
     
@@ -121,24 +153,87 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>J84, 12 km de marche, cumul à pied 1432 km, cumul total 2643 km.
-Une étape courte mais grande par le bonheur qu’elle nous a procuré. Pratiquement 1000 mètres de dénivelé, avec des vues magnifiques sur la ville, sur la baie, sur les montagnes. Un chemin sauvage mais bien praticable et même aussi bien balisé, cela faisait longtemps !
-Départ à la fraîche (le soleil est encore derrière la montagne) en direction de la forteresse, en même temps que quelques lève-tôt en quêtes de belles photos. Le sentier est impressionnant, d’innombrables lacets soutenus de gros murs de pierres pendant 5km . Nous rencontrons des chèvres, entendons des vaches et effrayons un « blavor » le fameux orvet géant des balkans (1,35 m et 5cm de diamètre!)on fini par s’habituer un peu, mais quand même , je troque  mon short contre un pantalon qui se resserre par un lacet en bas. Nano quant à lui ne marche qu’en pantalon long. Nous sommes aussi accompagnés de nuées de papillons et de vols de choucas . Petit replat pour ensuite attaquer la seconde montagne, celle ci est boisée de pins. Cela commence tranquillement pour finir telle une vraie ascension, parfois le chemin ressemble plutôt à un pierrier. La chaleur est là bien qu’on soit à 950m. C’est avec plaisir qu’on retrouve la route et un petit restau où l’on nous sert une omelette qui nous semble délicieuse. Nous rencontrons Vincent qui lui est monté en vélo, la route serpentine est elle aussi incroyable. Ce sympathique Marseillais connaît bien les balkans, l’occasion pour nous d’une agréable et intéressante discussion, bonnes vacances Vincent!
-Arrivée à Njegusi, étonnant petit ilôt de verdure et lieu de fabrication du célèbre fromage de chèvre du même nom ainsi que du jambon sec, incroyable il y a des petits commerces de produits locaux partout, voila pour notre dîner de ce soir! C’est aussi le lieu de naissance de de Petar II roi poête du 19ème et son mausolée est au sommet du mont Lovcen, montagne sacrée pour les monténegrin à prés de 1800m.</p>
+  <div class="article-body">
+    <p>J84, 12 km de marche, cumul à pied 1432 km, cumul total 2643 km.</p>
+<p>Une étape courte mais grande par le bonheur qu’elle nous a procuré. Pratiquement 1000 mètres de dénivelé, avec des vues magnifiques sur la ville, sur la baie, sur les montagnes. Un chemin sauvage mais bien praticable et même aussi bien balisé, cela faisait longtemps !</p>
+<p>Départ à la fraîche (le soleil est encore derrière la montagne) en direction de la forteresse, en même temps que quelques lève-tôt en quêtes de belles photos. Le sentier est impressionnant, d’innombrables lacets soutenus de gros murs de pierres pendant 5km . Nous rencontrons des chèvres, entendons des vaches et effrayons un « blavor » le fameux orvet géant des balkans (1,35 m et 5cm de diamètre!)on fini par s’habituer un peu, mais quand même , je troque  mon short contre un pantalon qui se resserre par un lacet en bas. Nano quant à lui ne marche qu’en pantalon long. Nous sommes aussi accompagnés de nuées de papillons et de vols de choucas . Petit replat pour ensuite attaquer la seconde montagne, celle ci est boisée de pins. Cela commence tranquillement pour finir telle une vraie ascension, parfois le chemin ressemble plutôt à un pierrier. La chaleur est là bien qu’on soit à 950m. C’est avec plaisir qu’on retrouve la route et un petit restau où l’on nous sert une omelette qui nous semble délicieuse. Nous rencontrons Vincent qui lui est monté en vélo, la route serpentine est elle aussi incroyable. Ce sympathique Marseillais connaît bien les balkans, l’occasion pour nous d’une agréable et intéressante discussion, bonnes vacances Vincent!</p>
+<p>Arrivée à Njegusi, étonnant petit ilôt de verdure et lieu de fabrication du célèbre fromage de chèvre du même nom ainsi que du jambon sec, incroyable il y a des petits commerces de produits locaux partout, voila pour notre dîner de ce soir! C’est aussi le lieu de naissance de de Petar II roi poête du 19ème et son mausolée est au sommet du mont Lovcen, montagne sacrée pour les monténegrin à prés de 1800m.</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,67 +46,76 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Nesselwangle / Berwang (Autriche – Tyrol)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Nesselwangle / Berwang (Autriche – Tyrol)</h1>
+    <time datetime="2019-04-22">22 April 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Nesselwangle / Berwang (Autriche – Tyrol)</h1>
-  <p class="gray">22 April 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-04-22_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-04-22_1.jpg" alt="Nesselwangle / Berwang (Autriche – Tyrol)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-04-22_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-04-22_1.jpg" alt="Nesselwangle / Berwang (Autriche – Tyrol)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-04-22_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-04-22_2.jpg" alt="Nesselwangle / Berwang (Autriche – Tyrol)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-04-22_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-04-22_2.jpg" alt="Nesselwangle / Berwang (Autriche – Tyrol)" />
         </a>
       
     
@@ -121,23 +153,86 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>Quelle belle marche ! Nous avons le sentiment que notre capacité à être émerveillés par des choses simples (pour nous, certes, déjà assez élevée auparavant) se renforce encore au fil des jours. 21 km et 1120 m de dénivelé positif cumulé se sont passés presqu’en douceur tellement nous avons apprécié notre environnement. Petite discussion avec un écureuil qui nous offre, en au revoir, un splendide vol plané d’un sapin à l’autre, harde de biches assez promptes malheureusement à nous montrer leur derrière. Rivières impétueuses, cascades à gogo, gorges vertigineuses, éboulis d’avalanches et des sommets toujours renouvelés, toujours aussi remarquables. Nous sommes dans des coins de ski, mais ce ne sont que des suites de petits villages-stations parfaitement bien intégrés. La neige commence à laisser la place à des nuées de crocus… Pourtant, Rosemarie nous a annoncé ce matin du mauvais temps pour mercredi, peut-être même de la neige ! Winter’rrr is (re)coming ?
-Nb : la fleur rouge d’hier, un peu genre Joubarbe, c’est le grand Pétasite (d’après l’appli Pl@nNet). Elle devient moche en grandissant…
-J18, 21 km, cumul à pied 333 km, cumul total 948 km</p>
+  <div class="article-body">
+    <p>Quelle belle marche ! Nous avons le sentiment que notre capacité à être émerveillés par des choses simples (pour nous, certes, déjà assez élevée auparavant) se renforce encore au fil des jours. 21 km et 1120 m de dénivelé positif cumulé se sont passés presqu’en douceur tellement nous avons apprécié notre environnement. Petite discussion avec un écureuil qui nous offre, en au revoir, un splendide vol plané d’un sapin à l’autre, harde de biches assez promptes malheureusement à nous montrer leur derrière. Rivières impétueuses, cascades à gogo, gorges vertigineuses, éboulis d’avalanches et des sommets toujours renouvelés, toujours aussi remarquables. Nous sommes dans des coins de ski, mais ce ne sont que des suites de petits villages-stations parfaitement bien intégrés. La neige commence à laisser la place à des nuées de crocus… Pourtant, Rosemarie nous a annoncé ce matin du mauvais temps pour mercredi, peut-être même de la neige ! Winter’rrr is (re)coming ?</p>
+<p>Nb : la fleur rouge d’hier, un peu genre Joubarbe, c’est le grand Pétasite (d’après l’appli Pl@nNet). Elle devient moche en grandissant…</p>
+<p>J18, 21 km, cumul à pied 333 km, cumul total 948 km</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

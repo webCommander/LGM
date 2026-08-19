@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,67 +46,76 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Bandar-e-Anzali / Lotka Ecolodge (Iran)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Bandar-e-Anzali / Lotka Ecolodge (Iran)</h1>
+    <time datetime="2019-11-08">08 November 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Bandar-e-Anzali / Lotka Ecolodge (Iran)</h1>
-  <p class="gray">08 November 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-11-08_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-11-08_1.jpg" alt="Bandar-e-Anzali / Lotka Ecolodge (Iran)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-11-08_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-11-08_1.jpg" alt="Bandar-e-Anzali / Lotka Ecolodge (Iran)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-11-08_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-11-08_2.jpg" alt="Bandar-e-Anzali / Lotka Ecolodge (Iran)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-11-08_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-11-08_2.jpg" alt="Bandar-e-Anzali / Lotka Ecolodge (Iran)" />
         </a>
       
     
@@ -121,25 +153,88 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>J173, 28 km de marche, 1 km en voiture, cumul à pied 2781 km, cumul total 5929 km. En Iran, cumul à pied 326 km, cumul total 882 km.
-Assez longue étape aujourd’hui, 28 km mais toujours sur du plat. Nous quittons l’hôtel peu après 8h, toujours sous un grand soleil qui ne nous quittera pas, alors que Bandar E Anzali est la ville la plus pluvieuse d’Iran.
-C’est par la plage que nous commençons notre marche, mais après 4km première petite disconvenue. Nous nous arrêtons pour boire, pas de bouteille dis donc!! Tout est resté dans le frigo de l’hôtel. Nous sommes presque résolus à abandonner nos gourdes sauf qu’on est dans une zone résidentielle, aucune alim gle ou bana bana….Je me sacrifie donc pour garder les sacs et Nano fonce chercher notre matériel, il fera l’aller-retour en un temps record grâce à l’aide de gentils automobilistes qui le convoie. C’est reparti pour être à nouveau stoppés par un passage de rivière, petit crochet par la route ce n’est pas grave. Un peu plus loin, c’est un militaire qui nous arrête, zone interdite, nous sommes priés de faire demi-tour.Cela ne nous arrange pas mais bien obligé d’obtempérer. Ce sera donc la route, pas très amusant. Pour le repas de midi, tardif, le lunch comme ils disent ici, c’est sur la plage, tout près d’un parc et d’un complexe touristique, il y a un monde fou et ça grille dans tous les coins. Courage encore 7 km, il faudra arriver à sortir de cette zone sécurisée, on le fera par un trou dans le grillage pour ne pas trop revenir en arrière, ben oui, nous sommes à quelques centaines de mètres près !
-Arrivés à 1 km de l’auberge, oui ce soir nous avons réussi à réserver, nous tombons sur Ali, il veut absolument nous y emmener en voiture, on refuse, on refuse mais lui insiste, « I’me very happy, I’m very happy » et de prendre notre sac pour le mettre dans le coffre. Nous cédons, après-tout il est tard et nous avons bien marché.
-Nous sommes très bien accueillis au Lokta Ecolodge qui est un endroit tout mignon, on ne bouge plus jusqu’à demain matin!</p>
+  <div class="article-body">
+    <p>J173, 28 km de marche, 1 km en voiture, cumul à pied 2781 km, cumul total 5929 km. En Iran, cumul à pied 326 km, cumul total 882 km.</p>
+<p>Assez longue étape aujourd’hui, 28 km mais toujours sur du plat. Nous quittons l’hôtel peu après 8h, toujours sous un grand soleil qui ne nous quittera pas, alors que Bandar E Anzali est la ville la plus pluvieuse d’Iran.</p>
+<p>C’est par la plage que nous commençons notre marche, mais après 4km première petite disconvenue. Nous nous arrêtons pour boire, pas de bouteille dis donc!! Tout est resté dans le frigo de l’hôtel. Nous sommes presque résolus à abandonner nos gourdes sauf qu’on est dans une zone résidentielle, aucune alim gle ou bana bana….Je me sacrifie donc pour garder les sacs et Nano fonce chercher notre matériel, il fera l’aller-retour en un temps record grâce à l’aide de gentils automobilistes qui le convoie. C’est reparti pour être à nouveau stoppés par un passage de rivière, petit crochet par la route ce n’est pas grave. Un peu plus loin, c’est un militaire qui nous arrête, zone interdite, nous sommes priés de faire demi-tour.Cela ne nous arrange pas mais bien obligé d’obtempérer. Ce sera donc la route, pas très amusant. Pour le repas de midi, tardif, le lunch comme ils disent ici, c’est sur la plage, tout près d’un parc et d’un complexe touristique, il y a un monde fou et ça grille dans tous les coins. Courage encore 7 km, il faudra arriver à sortir de cette zone sécurisée, on le fera par un trou dans le grillage pour ne pas trop revenir en arrière, ben oui, nous sommes à quelques centaines de mètres près !</p>
+<p>Arrivés à 1 km de l’auberge, oui ce soir nous avons réussi à réserver, nous tombons sur Ali, il veut absolument nous y emmener en voiture, on refuse, on refuse mais lui insiste, « I’me very happy, I’m very happy » et de prendre notre sac pour le mettre dans le coffre. Nous cédons, après-tout il est tard et nous avons bien marché.</p>
+<p>Nous sommes très bien accueillis au Lokta Ecolodge qui est un endroit tout mignon, on ne bouge plus jusqu’à demain matin!</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

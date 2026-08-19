@@ -2,6 +2,21 @@
 
 Ce guide explique comment ajouter des articles, des images, des sections et des liens dans le menu sans connaissances en développement.
 
+## La méthode la plus simple : l'interface d'administration
+
+Le site dispose d'une interface d'administration en ligne (Sveltia CMS), accessible à l'adresse **`/admin/`** du site (par exemple `https://votre-site.netlify.app/admin/`). C'est la méthode recommandée pour écrire des articles :
+
+1. Ouvrir la page `/admin/` dans le navigateur.
+2. Se connecter avec son compte GitHub (une seule fois, la session est mémorisée).
+3. Choisir la rubrique (Paris — Ispahan, Tour des Zagoria, Autres articles).
+4. Cliquer sur **Nouvel article**, remplir le titre et la date, écrire le texte.
+5. Les images s'ajoutent par glisser-déposer directement dans le texte.
+6. Cliquer sur **Enregistrer** : l'article est publié et le site se met à jour tout seul en une ou deux minutes.
+
+Aucune connaissance de Git ni du Markdown n'est nécessaire. La case « Brouillon » permet d'enregistrer un article sans le faire apparaître sur le site.
+
+Les sections suivantes décrivent l'ancienne méthode manuelle (Typora + GitHub Desktop), qui reste utilisable.
+
 ## Outils recommandés
 
 Utiliser deux logiciels séparés :

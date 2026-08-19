@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,67 +46,76 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Shkoder / Baks-Rrjollë (Albanie)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Shkoder / Baks-Rrjollë (Albanie)</h1>
+    <time datetime="2019-07-05">05 July 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Shkoder / Baks-Rrjollë (Albanie)</h1>
-  <p class="gray">05 July 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-07-05_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-07-05_1.jpg" alt="Shkoder / Baks-Rrjollë (Albanie)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-07-05_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-07-05_1.jpg" alt="Shkoder / Baks-Rrjollë (Albanie)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-07-05_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-07-05_2.jpg" alt="Shkoder / Baks-Rrjollë (Albanie)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-07-05_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-07-05_2.jpg" alt="Shkoder / Baks-Rrjollë (Albanie)" />
         </a>
       
     
@@ -121,24 +153,87 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>J92, 29 km de marche, cumul à pied 1579 km, cumul total 2811 km.
-« Gros match » bis ! Lever à 4h15, arrivée à 13h30, re-CUITS ! Nous réussissons quand même à émerger de la sieste à 15h30 pour profiter du coin et de la Mer !
-Heureusement que la température était un peu plus basse aujourd’hui, pas beaucoup, mais avec un peu d’air. Il n’y a qu’une seule route qui va à la mer, à travers ces grandes zones humides, grandes réserves fauniques (comme on dit au Québec!), constituées par les rivières qui découlent du lac Shkoder et se jettent dans la mer. Nous la suivrons assez souvent y échappant de temps en temps. Nous marchons au milieu des roseaux puis sur la nouvelle route mais non encore en service puis après avoir franchi cette barrière rocheuse qui sépare la plaine de la côte, nous prenons une petite route en cul de sac qui dessert le côtè de l’estuaire où nous nous rendons. Le thème de la journée c’est les animaux sur la route, même la grande!
-Demain expérience nouvelle, nous allons marcher sur la plage pour nous rendre à Shëngjin, va-ton s’en sortir? La suite au prochain numéro !</p>
+  <div class="article-body">
+    <p>J92, 29 km de marche, cumul à pied 1579 km, cumul total 2811 km.</p>
+<p>« Gros match » bis ! Lever à 4h15, arrivée à 13h30, re-CUITS ! Nous réussissons quand même à émerger de la sieste à 15h30 pour profiter du coin et de la Mer !</p>
+<p>Heureusement que la température était un peu plus basse aujourd’hui, pas beaucoup, mais avec un peu d’air. Il n’y a qu’une seule route qui va à la mer, à travers ces grandes zones humides, grandes réserves fauniques (comme on dit au Québec!), constituées par les rivières qui découlent du lac Shkoder et se jettent dans la mer. Nous la suivrons assez souvent y échappant de temps en temps. Nous marchons au milieu des roseaux puis sur la nouvelle route mais non encore en service puis après avoir franchi cette barrière rocheuse qui sépare la plaine de la côte, nous prenons une petite route en cul de sac qui dessert le côtè de l’estuaire où nous nous rendons. Le thème de la journée c’est les animaux sur la route, même la grande!</p>
+<p>Demain expérience nouvelle, nous allons marcher sur la plage pour nous rendre à Shëngjin, va-ton s’en sortir? La suite au prochain numéro !</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

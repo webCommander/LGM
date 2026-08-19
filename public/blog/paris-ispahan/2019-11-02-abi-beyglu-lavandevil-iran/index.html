@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,75 +46,83 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Abi Beyglu / Lavandevil (Iran)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Abi Beyglu / Lavandevil (Iran)</h1>
+    <time datetime="2019-11-02">02 November 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Abi Beyglu / Lavandevil (Iran)</h1>
-  <p class="gray">02 November 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-11-02_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-11-02_1.jpg" alt="Abi Beyglu / Lavandevil (Iran)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-11-02_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-11-02_1.jpg" alt="Abi Beyglu / Lavandevil (Iran)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-11-02_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-11-02_2.jpg" alt="Abi Beyglu / Lavandevil (Iran)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-11-02_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-11-02_2.jpg" alt="Abi Beyglu / Lavandevil (Iran)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-11-02_3.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-11-02_3.jpg" alt="Abi Beyglu / Lavandevil (Iran)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-11-02_3.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-11-02_3.jpg" alt="Abi Beyglu / Lavandevil (Iran)" />
         </a>
       
     
@@ -126,27 +157,90 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>J167, 25 km de marche, 23 km en voiture, cumul à pied 2665 km, cumul total 5699 km. En Iran : cumul à pied 210 km, cumul total 652 km.
-Hourra, grand soleil au lever.
-Ils avaient bien raison nos hôtes de s’inquiéter pour nous quant à la difficulté de notre marche du jour. Devant leurs arguments et le fort dénivelé, bien que surtout négatif, leur inquiétude déteint un peu et c’est avec un certain soulagement que nous acceptons la proposition de Saïd (mari de la fille de la famille) de nous avancer sur la route. C’est vers 7h et après le petit déjeuner familial, que nous montons dans le 4X4 accompagné du papa, qui ne veut pas manquer ça. Saïd connaît la montagne « comme sa main! » et sa voiture connaît la route, quelle route, des montées vertigineuses, qui n’ont rien a envier aux descentes. Nous sommes époustouflés par ces pentes et le paysage qui va avec, au milieu de ce qu’ils appellent la jungle (en fait la forêt) et qui rajoute encore à l’aventure.
-Arrivés en haut, du moins ce que nous pensions être en haut, il y a un vent terrible. Comme avec la famille plus bas, les adieux sont émouvants.
-Nous partons avec impatience peut-être un peu trop. Je tombe en glissant après moins d’un km, plus de peur que de mal, mais du coup nous sommes un peu sur nos gardes. Ce sera le cas toute la journée sur ces pentes raides, en descente comme en montée, demain sûr que les courbatures nous guettent. Comme hier, mais de l’autre coté de la montagne, le brouillard est là et nous le rejoindrons assez rapidement. Journée bien fatigante, 25 km, nous sommes descendus de 1700m, puisque nous sommes au bord de la mer Caspienne ce soir et c’est sans compter les montées, nombreuses. Mais marche magnifique!
-Comme la nuit va être bonne dans ce confortable hôtel.
-Pour le précédent quizz, on va dire que c’était de la pâte de dattes! Nous avions pensé que ça pouvait être du black Halva, spécialité d’Ardabil, mais non, ce dessert se mange chaud à la petite cuiller et saupoudré de noix de coco, c’est bon!</p>
+  <div class="article-body">
+    <p>J167, 25 km de marche, 23 km en voiture, cumul à pied 2665 km, cumul total 5699 km. En Iran : cumul à pied 210 km, cumul total 652 km.</p>
+<p>Hourra, grand soleil au lever.</p>
+<p>Ils avaient bien raison nos hôtes de s’inquiéter pour nous quant à la difficulté de notre marche du jour. Devant leurs arguments et le fort dénivelé, bien que surtout négatif, leur inquiétude déteint un peu et c’est avec un certain soulagement que nous acceptons la proposition de Saïd (mari de la fille de la famille) de nous avancer sur la route. C’est vers 7h et après le petit déjeuner familial, que nous montons dans le 4X4 accompagné du papa, qui ne veut pas manquer ça. Saïd connaît la montagne « comme sa main! » et sa voiture connaît la route, quelle route, des montées vertigineuses, qui n’ont rien a envier aux descentes. Nous sommes époustouflés par ces pentes et le paysage qui va avec, au milieu de ce qu’ils appellent la jungle (en fait la forêt) et qui rajoute encore à l’aventure.</p>
+<p>Arrivés en haut, du moins ce que nous pensions être en haut, il y a un vent terrible. Comme avec la famille plus bas, les adieux sont émouvants.</p>
+<p>Nous partons avec impatience peut-être un peu trop. Je tombe en glissant après moins d’un km, plus de peur que de mal, mais du coup nous sommes un peu sur nos gardes. Ce sera le cas toute la journée sur ces pentes raides, en descente comme en montée, demain sûr que les courbatures nous guettent. Comme hier, mais de l’autre coté de la montagne, le brouillard est là et nous le rejoindrons assez rapidement. Journée bien fatigante, 25 km, nous sommes descendus de 1700m, puisque nous sommes au bord de la mer Caspienne ce soir et c’est sans compter les montées, nombreuses. Mais marche magnifique!</p>
+<p>Comme la nuit va être bonne dans ce confortable hôtel.</p>
+<p>Pour le précédent quizz, on va dire que c’était de la pâte de dattes! Nous avions pensé que ça pouvait être du black Halva, spécialité d’Ardabil, mais non, ce dessert se mange chaud à la petite cuiller et saupoudré de noix de coco, c’est bon!</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

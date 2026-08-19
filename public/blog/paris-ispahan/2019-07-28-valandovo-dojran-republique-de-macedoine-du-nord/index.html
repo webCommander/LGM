@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,67 +46,76 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Valandovo / Dojran (République de Macédoine du Nord)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Valandovo / Dojran (République de Macédoine du Nord)</h1>
+    <time datetime="2019-07-28">28 July 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Valandovo / Dojran (République de Macédoine du Nord)</h1>
-  <p class="gray">28 July 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-07-28_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-07-28_1.jpg" alt="Valandovo / Dojran (République de Macédoine du Nord)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-07-28_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-07-28_1.jpg" alt="Valandovo / Dojran (République de Macédoine du Nord)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-07-28_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-07-28_2.jpg" alt="Valandovo / Dojran (République de Macédoine du Nord)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-07-28_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-07-28_2.jpg" alt="Valandovo / Dojran (République de Macédoine du Nord)" />
         </a>
       
     
@@ -121,25 +153,88 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>J115, 25 km de marche, cumul à pied 1943 km, cumul total 3453 km.
-La grande nouvelle du jour c’est que notre GPX reccorder remarche, c’est l’économiseur d’énergie qui avait fait le coup apparemment! Ce qui nous permet de confirmer les 25 km du jour. Entre la monotonie de la route, l’ardeur du soleil à la fin et sûrement un peu de fatigue cumulée, nous les avons bien sentis passer…..! Ah oui et le dénivelé cumulé car à force de faire des creux et des bosses à la fin, cela fait beaucoup de montées et les montées ça fatigue quand il fait chaud! Nous n’avons donc pas quittée la route aujourd’hui, avec une circulation de départ en vacances, car nous sommes sur la route du lac de Dojran et de la Grèce. Cela nous oblige à une grande vigilance, nous marchons l’un derrière l’autre, pas moyen de discuter ni d’écouter un podcast ou de la musique. Le paysage est très sauvage et désertique, pas de village ni de culture. Nous ferons même un détour pour aller chercher de l’ombre aux pieds d’une croix et éviter ces herbes sèches piquantes et accrocheuses que l’on se met de partout quand on s’assied par terre. Où sont nos fraîches pauses du début! Tout le long du lac nous verrons des séries de bancs en plein soleil devant d’immenses buissons de ronces, pour sûr qu’ils ne voient pas énormément de postérieurs pendant une journée. Il fait chaud mais il y a du vent, un vent de face qui rafraîchit mais nous oblige peut-être aussi à forcer plus.
-Nous sommes ce soir dans une zone touristique au bord du lac de Dojran, la Grèce est à 3,5 et la Bulgarie un peu plus au nord à 50km. Peut-être va-t-on se risquer à goûter le cat-fish, il est très renommé ici, nous sommes un peu septiques, mais il faut voir.
-Cet après-midi nous sommes quand même moins fatigués qu’hier (pour ma part je n’existait plus!), après avoir fait 34 km on s’était dit que 24(c’est ce qui était prévu au départ de la marche) ce n’était pas grand chose et bien nous avons été un peu présomptueux.
-Demain nous nous contentons de changer d’endroit, plus de place à l’hôtel, c’est donc une journée de repos pratiquement.</p>
+  <div class="article-body">
+    <p>J115, 25 km de marche, cumul à pied 1943 km, cumul total 3453 km.</p>
+<p>La grande nouvelle du jour c’est que notre GPX reccorder remarche, c’est l’économiseur d’énergie qui avait fait le coup apparemment! Ce qui nous permet de confirmer les 25 km du jour. Entre la monotonie de la route, l’ardeur du soleil à la fin et sûrement un peu de fatigue cumulée, nous les avons bien sentis passer…..! Ah oui et le dénivelé cumulé car à force de faire des creux et des bosses à la fin, cela fait beaucoup de montées et les montées ça fatigue quand il fait chaud! Nous n’avons donc pas quittée la route aujourd’hui, avec une circulation de départ en vacances, car nous sommes sur la route du lac de Dojran et de la Grèce. Cela nous oblige à une grande vigilance, nous marchons l’un derrière l’autre, pas moyen de discuter ni d’écouter un podcast ou de la musique. Le paysage est très sauvage et désertique, pas de village ni de culture. Nous ferons même un détour pour aller chercher de l’ombre aux pieds d’une croix et éviter ces herbes sèches piquantes et accrocheuses que l’on se met de partout quand on s’assied par terre. Où sont nos fraîches pauses du début! Tout le long du lac nous verrons des séries de bancs en plein soleil devant d’immenses buissons de ronces, pour sûr qu’ils ne voient pas énormément de postérieurs pendant une journée. Il fait chaud mais il y a du vent, un vent de face qui rafraîchit mais nous oblige peut-être aussi à forcer plus.</p>
+<p>Nous sommes ce soir dans une zone touristique au bord du lac de Dojran, la Grèce est à 3,5 et la Bulgarie un peu plus au nord à 50km. Peut-être va-t-on se risquer à goûter le cat-fish, il est très renommé ici, nous sommes un peu septiques, mais il faut voir.</p>
+<p>Cet après-midi nous sommes quand même moins fatigués qu’hier (pour ma part je n’existait plus!), après avoir fait 34 km on s’était dit que 24(c’est ce qui était prévu au départ de la marche) ce n’était pas grand chose et bien nous avons été un peu présomptueux.</p>
+<p>Demain nous nous contentons de changer d’endroit, plus de place à l’hôtel, c’est donc une journée de repos pratiquement.</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

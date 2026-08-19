@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,67 +46,76 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Veles / Gradsko (République de Macédoine du Nord)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Veles / Gradsko (République de Macédoine du Nord)</h1>
+    <time datetime="2019-07-24">24 July 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Veles / Gradsko (République de Macédoine du Nord)</h1>
-  <p class="gray">24 July 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-07-24_1.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-07-24_1.jpg" alt="Veles / Gradsko (République de Macédoine du Nord)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-07-24_1.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-07-24_1.jpg" alt="Veles / Gradsko (République de Macédoine du Nord)" />
         </a>
       
     
       
       
-        <a href="/images/paris-ispahan/paris-ispahan_2019-07-24_2.jpg" class="glightbox w-25 pa1" data-gallery="article-gallery">
-          
-          <img src="/images/paris-ispahan/paris-ispahan_2019-07-24_2.jpg" alt="Veles / Gradsko (République de Macédoine du Nord)" class="w-100 db" />
+        <a href="/images/paris-ispahan/paris-ispahan_2019-07-24_2.jpg" class="glightbox" data-gallery="article-gallery">
+          <img src="/images/paris-ispahan/paris-ispahan_2019-07-24_2.jpg" alt="Veles / Gradsko (République de Macédoine du Nord)" />
         </a>
       
     
@@ -121,26 +153,89 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>J111, 25 km de marche, cumul à pied 1843 km, cumul total 3353 km.
-Pas de trace GPX aujourd’hui, cela n’a pas marché… Peut-être un problème de trop grand nombre de fichiers enregistrés (le 100ème aujourd’hui. Ménage fait, on espère que ce sera opé pour demain.
-Notre soirée d’hier soir a été marquée par la rencontre avec Benno, un jeune allemand de 34 ans, vivant à Vienne, parlant un très bon français et qui lui se promène un mois dans les balkans en …….canoë ! Incroyable ! Lorsqu’on le rencontre il se remet d’un petit désordre général, du pense-t-il, à la mauvaise qualité de la rivière au niveau sanitaire, pas étonnant, entre son aspect et son odeur. Toujours ce même et énorme problème, déchets humains et industriels qui gavent les rivières. Nous dînons ensemble avant qu’il ne file prendre son train pour Belgrade puis Podgorica, à peu prés 24h de train avec son canoë pliable. Drôle d’itinéraire, mais son problème de santé l’a persuadé de changer ses plans, bonne route Benno, tu te fera plus plaisir sur le lac de Skadar!!
-Nous quittons la ville ce matin par la route principale, encore tranquille du fait de l’horaire matinal. Nous faisons 4km dans des gorges peu profondes avec un arrêt au monastère de Saint-Dimitri, son gardien nous offre un café et un coca et nous montre l’église. L’endroit est agréable avec un grand auvent accueillant sous lequel il y a des tables et des bancs(on pensera peut-être à cela quand on cherchera un coin sieste, si par hasard il y a une église orthodoxe)!
-Par la suite nous pensions devoir prendre la route principale tout le long, nous y échapperons les 2/3 du temps empruntant un autre petit chemin à flanc de coteau, mais pour la retrouver sur les 8 derniers km, pas trais agréable car là encore les bords n’ont pas étés fauchés et maintenant ça circule pas mal. A notre arrivée à Gradsko nous achetons des pêches à une dame qui les vend devant sa maison. Il s’avère qu’elle parle très bien français, un de ses fils travaille à Paris et nous passons un petit moment à boire le café et à discuter avec Dragista, les pêches ce sera cadeau, elle refuse absolument que l’on paie. Et elles sont délicieuses ces pêches!
-Même PS qu’hier: faites nous plaisir envoyez nous une photo de vous!!</p>
+  <div class="article-body">
+    <p>J111, 25 km de marche, cumul à pied 1843 km, cumul total 3353 km.</p>
+<p>Pas de trace GPX aujourd’hui, cela n’a pas marché… Peut-être un problème de trop grand nombre de fichiers enregistrés (le 100ème aujourd’hui. Ménage fait, on espère que ce sera opé pour demain.</p>
+<p>Notre soirée d’hier soir a été marquée par la rencontre avec Benno, un jeune allemand de 34 ans, vivant à Vienne, parlant un très bon français et qui lui se promène un mois dans les balkans en …….canoë ! Incroyable ! Lorsqu’on le rencontre il se remet d’un petit désordre général, du pense-t-il, à la mauvaise qualité de la rivière au niveau sanitaire, pas étonnant, entre son aspect et son odeur. Toujours ce même et énorme problème, déchets humains et industriels qui gavent les rivières. Nous dînons ensemble avant qu’il ne file prendre son train pour Belgrade puis Podgorica, à peu prés 24h de train avec son canoë pliable. Drôle d’itinéraire, mais son problème de santé l’a persuadé de changer ses plans, bonne route Benno, tu te fera plus plaisir sur le lac de Skadar!!</p>
+<p>Nous quittons la ville ce matin par la route principale, encore tranquille du fait de l’horaire matinal. Nous faisons 4km dans des gorges peu profondes avec un arrêt au monastère de Saint-Dimitri, son gardien nous offre un café et un coca et nous montre l’église. L’endroit est agréable avec un grand auvent accueillant sous lequel il y a des tables et des bancs(on pensera peut-être à cela quand on cherchera un coin sieste, si par hasard il y a une église orthodoxe)!</p>
+<p>Par la suite nous pensions devoir prendre la route principale tout le long, nous y échapperons les 2/3 du temps empruntant un autre petit chemin à flanc de coteau, mais pour la retrouver sur les 8 derniers km, pas trais agréable car là encore les bords n’ont pas étés fauchés et maintenant ça circule pas mal. A notre arrivée à Gradsko nous achetons des pêches à une dame qui les vend devant sa maison. Il s’avère qu’elle parle très bien français, un de ses fils travaille à Paris et nous passons un petit moment à boire le café et à discuter avec Dragista, les pêches ce sera cadeau, elle refuse absolument que l’on paie. Et elles sont délicieuses ces pêches!</p>
+<p>Même PS qu’hier: faites nous plaisir envoyez nous une photo de vous!!</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>

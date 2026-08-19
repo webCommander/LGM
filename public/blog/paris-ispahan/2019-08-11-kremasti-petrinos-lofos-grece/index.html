@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +16,29 @@
 
   
   <link rel="stylesheet" href="/css/site.css">
+  
+  <link rel="stylesheet" href="/css/custom.min.css">
+
+  <style>
+    .hero {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translate3d(0, var(--hero-pan, 0), 0);
+      will-change: transform;
+    }
+  </style>
 
 
   
@@ -23,52 +46,63 @@
 
 </head>
 
-<body class="ma0 avenir bg-near-white">
+<body>
 
   
-  <header>
+  
+  <header
+    class="hero"
+    role="img"
+    aria-label="Kremasti / Petrinos Lofos (Grèce)">
+    <div
+      class="hero-image"
+      data-image="/images/hero.jpg"
+      style="background-image: url(&#39;/images/hero.jpg&#39;)">
+    </div>
+  </header>
+
+  <div class="site-content">
     
-      <div class="w-100">
-        <img src="/images/hero.jpg" alt="Hero" class="w-100 vh-50 object-cover">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <div class="site-nav-inner">
+        <a href="/" class="site-brand">Les Grandes Marches</a>
+        <ul class="site-menu">
+          
+            <li>
+              <a href="/blog/paris-ispahan/">Paris Ispahan</a>
+            </li>
+          
+            <li>
+              <a href="/blog/tour-des-zagoria/">Tour des Zagoria</a>
+            </li>
+          
+            <li>
+              <a href="/blog/autre/">Autre</a>
+            </li>
+          
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+          
+        </ul>
       </div>
+    </nav>
+
     
+    <main class="site-main">
+      
+<article class="article-page">
+
+  
+  <header class="article-header">
+    <p class="eyebrow">Journal de route</p>
+    <h1>Kremasti / Petrinos Lofos (Grèce)</h1>
+    <time datetime="2019-08-11">11 August 2019</time>
   </header>
 
   
-  <nav class="pa3 pa4-ns">
-    <ul class="list flex justify-center pa0 ma0">
-      
-        <li class="mh3 ici">
-          <a href="/blog/paris-ispahan/" class="link dim dark-gray f4">Paris Ispahan</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/tour-des-zagoria/" class="link dim dark-gray f4">Tour des Zagoria</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/blog/autre/" class="link dim dark-gray f4">Autre</a>
-        </li>
-      
-        <li class="mh3 ici">
-          <a href="/" class="link dim dark-gray f4">Accueil</a>
-        </li>
-      
-    </ul>
-  </nav>
-
   
-  <main class="mw8 center ph3 pt4">
-    
-<main class="pa3 pa4-ns w-100 center measure-wide lh-copy">
-
-  
-  <h1 class="f2">Kremasti / Petrinos Lofos (Grèce)</h1>
-  <p class="gray">11 August 2019</p>
-
-  
-  
-  <div class="flex flex-wrap mb4">
+  <div class="article-gallery">
     
     
       
@@ -111,24 +145,87 @@
 </script>
 
   
-  <div class="lh-copy">
-    <p>J129, 28 km de marche, 4 km de voiture, cumul à pied 2057 km, cumul total 3776 km.
-Vraie grande étape aujourd’hui, il y avait au départ 30 km à faire (finalement ce sera 32) que nous étions déterminés à raccourcir un peu, ce que nous avons fait grâce à Georges, un vieil agriculteur, qui nous a pris dans son antique pick-up pour 4km en fin de parcours.
-Nous avons démarré tôt, 5H30 accompagnés des chiens du quartier (les mêmes qui avaient fait la nouba toute la nuit, empêchant certain de dormir!), ainsi que du cri des nombreux coqs et dindons du village. Il fait encore nuit donc mais la route, plutôt une piste, est claire et facile à suivre. Nous sommes dans une grande plaine, la montagne à gauche, la mer à droite, mais trop loin pour que nous puissions la voir. Ici on cultive des hectares de kiwis, du maïs, du blé et on verra tout au long de la journée passer des camions remplis de miscanthus broyés, on ne sait pas ce qu’ils en font. A la pause graine nous mangeons nos premières figues sur l’arbre, délicieuses. C’est dimanche et nous « suivons » la messe (drôlement longue) d’un village à l’autre car elle est diffusée par des hauts parleurs que l’on entend de loin. Dans le village de Melissa nous prenons un très bon café frappé, très habituel partout en Grèce, grand café glacé avec lait et sucre ou pas, toujours sous le regard, curieux, des hommes qui ne vont pas à la messe. On essaie de faire pas mal de pauses, de bien boire, de délasser régulièrement nos chaussures car il fait chaud et nos corps protestent, c’était pas mal aussi de rester tranquilles semblent-ils dire. Surtout les pieds de Nano qui n’apprécient pas du tout d’être à nouveau enfermés dans des chaussures, neuves qui plus est, ce qui rend pour lui la marche douloureuse aujourd’hui.
-Donc à l’arrivée à 14H, nous soignons tout cela, douche sieste, tout va bien! Au réveil, plongeon dans la piscine, ce n’est pas si souvent qu’il y en a une alors on apprécie.</p>
+  <div class="article-body">
+    <p>J129, 28 km de marche, 4 km de voiture, cumul à pied 2057 km, cumul total 3776 km.</p>
+<p>Vraie grande étape aujourd’hui, il y avait au départ 30 km à faire (finalement ce sera 32) que nous étions déterminés à raccourcir un peu, ce que nous avons fait grâce à Georges, un vieil agriculteur, qui nous a pris dans son antique pick-up pour 4km en fin de parcours.</p>
+<p>Nous avons démarré tôt, 5H30 accompagnés des chiens du quartier (les mêmes qui avaient fait la nouba toute la nuit, empêchant certain de dormir!), ainsi que du cri des nombreux coqs et dindons du village. Il fait encore nuit donc mais la route, plutôt une piste, est claire et facile à suivre. Nous sommes dans une grande plaine, la montagne à gauche, la mer à droite, mais trop loin pour que nous puissions la voir. Ici on cultive des hectares de kiwis, du maïs, du blé et on verra tout au long de la journée passer des camions remplis de miscanthus broyés, on ne sait pas ce qu’ils en font. A la pause graine nous mangeons nos premières figues sur l’arbre, délicieuses. C’est dimanche et nous « suivons » la messe (drôlement longue) d’un village à l’autre car elle est diffusée par des hauts parleurs que l’on entend de loin. Dans le village de Melissa nous prenons un très bon café frappé, très habituel partout en Grèce, grand café glacé avec lait et sucre ou pas, toujours sous le regard, curieux, des hommes qui ne vont pas à la messe. On essaie de faire pas mal de pauses, de bien boire, de délasser régulièrement nos chaussures car il fait chaud et nos corps protestent, c’était pas mal aussi de rester tranquilles semblent-ils dire. Surtout les pieds de Nano qui n’apprécient pas du tout d’être à nouveau enfermés dans des chaussures, neuves qui plus est, ce qui rend pour lui la marche douloureuse aujourd’hui.</p>
+<p>Donc à l’arrivée à 14H, nous soignons tout cela, douche sieste, tout va bien! Au réveil, plongeon dans la piscine, ce n’est pas si souvent qu’il y en a une alors on apprécie.</p>
 
   </div>
 
-</main>
+</article>
 
 
-  </main>
+    </main>
 
-  
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-    <small>© 2025 Les Grandes Marches</small>
-  </footer>
+    
+    <footer class="site-footer">
+      <small>© 2026 Les Grandes Marches</small>
+    </footer>
+  </div>
 
-  
+  <script>
+  (() => {
+    const hero = document.querySelector('.hero');
+    const imageLayer = hero.querySelector('.hero-image');
+    const image = new Image();
+    let pan = 0;
+    let targetPan = 0;
+    let maxPan = 0;
+    let frame;
+
+    const render = () => {
+      pan += (targetPan - pan) * 0.14;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+
+      if (Math.abs(targetPan - pan) > 0.1) {
+        frame = requestAnimationFrame(render);
+      } else {
+        pan = targetPan;
+        imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+        frame = null;
+      }
+    };
+
+    const startRender = () => {
+      if (!frame) frame = requestAnimationFrame(render);
+    };
+
+    const measure = () => {
+      if (!image.naturalWidth) return;
+
+      const previousProgress = maxPan ? targetPan / maxPan : 0;
+      const renderedHeight = Math.max(
+        hero.clientHeight,
+        hero.clientWidth * image.naturalHeight / image.naturalWidth
+      );
+
+      imageLayer.style.height = `${renderedHeight}px`;
+      maxPan = renderedHeight - hero.clientHeight;
+      targetPan = maxPan * previousProgress;
+      pan = targetPan;
+      imageLayer.style.setProperty('--hero-pan', `${-pan}px`);
+    };
+
+    const onWheel = (event) => {
+      if (window.scrollY !== 0 || maxPan === 0) return;
+
+      const movingDown = event.deltaY > 0 && (targetPan < maxPan || pan < maxPan - 0.5);
+      const movingUp = event.deltaY < 0 && (targetPan > 0 || pan > 0.5);
+
+      if (!movingDown && !movingUp) return;
+
+      event.preventDefault();
+      targetPan = Math.min(maxPan, Math.max(0, targetPan + event.deltaY));
+      startRender();
+    };
+
+    image.addEventListener('load', measure);
+    image.src = imageLayer.dataset.image;
+    window.addEventListener('resize', measure);
+    window.addEventListener('wheel', onWheel, { passive: false });
+  })();
+</script>
+
 </body>
 </html>
