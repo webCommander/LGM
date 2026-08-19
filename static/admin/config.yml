@@ -23,7 +23,6 @@ collections:
     folder: "content/blog/paris-ispahan"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    filter: { field: "categories", value: "paris-ispahan" }
     sortable_fields: ["date", "title"]
     fields:
       - { label: "Titre", name: "title", widget: "string" }
@@ -38,7 +37,6 @@ collections:
     folder: "content/blog/tour-des-zagoria"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    filter: { field: "categories", value: "tour-des-zagoria" }
     sortable_fields: ["date", "title"]
     fields:
       - { label: "Titre", name: "title", widget: "string" }
@@ -53,7 +51,6 @@ collections:
     folder: "content/blog/autre"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    filter: { field: "categories", value: "autre" }
     sortable_fields: ["date", "title"]
     fields:
       - { label: "Titre", name: "title", widget: "string" }
