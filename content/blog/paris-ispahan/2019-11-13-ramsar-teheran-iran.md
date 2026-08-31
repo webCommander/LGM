@@ -2,7 +2,7 @@
 title: "Ramsar / Téhéran (Iran)"
 date: 2019-11-13
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J178, 5 km de marche, 290 km en bus, cumul à pied 2880 km, cumul total 6394 km. En Iran : cumul à pied 425 km, cumul total 1347 km.

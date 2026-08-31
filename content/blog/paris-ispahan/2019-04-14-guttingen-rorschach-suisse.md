@@ -2,7 +2,7 @@
 title: "Güttingen / Rorschach (Suisse)"
 date: 2019-04-14
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-14_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-14_2.jpg

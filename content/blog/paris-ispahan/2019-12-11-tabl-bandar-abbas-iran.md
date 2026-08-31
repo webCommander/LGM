@@ -2,7 +2,7 @@
 title: "Tabl / Bandar-Abbas (Iran)"
 date: 2019-12-11
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Une sorte de mutinerie en somme. L’affaire avait du être préparée dans la nuit… Ce matin, une bonne moitié de l’équipage, quelques heures plus tôt, encore moribonde et résignée, décidait de prendre les rennes et de marcher ! L’autre moitié, étonnée, un peu inquiète, un peu épatée, essayait d’expliquer la vanité de la chose, les risques peut-être… Rien à faire, la chose était entendue, toute l’équipe se lancerait dans la marche. En avant, Andiamo !

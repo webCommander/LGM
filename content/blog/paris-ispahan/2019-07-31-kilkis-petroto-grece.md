@@ -2,7 +2,7 @@
 title: "Kilkis / Petroto (Grèce)"
 date: 2019-07-31
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J118, 28 km de marche, cumul à pied 2006 km (tantatan !), cumul total 3516 km. Etape compliquée aujourd’hui, on devait se croire un peu trop à Thessalonique et du coup plein de petites choses sont allées de travers. Rien de bien grave, du style oubli d’un chargeur à l’hotel, oubli d’un bâton à une pause, perte d’un foulard (celui qui protège le sac et surtout la tablette de la chaleur), perte de la route dans une grande zone en bord de rivière…. Bref nous sommes bien arrivés, mais un peu épuisés et pas très satisfaits, qui plus est sous une chaleur de plomb!! Juste envie de se reposer et de fraicheur.

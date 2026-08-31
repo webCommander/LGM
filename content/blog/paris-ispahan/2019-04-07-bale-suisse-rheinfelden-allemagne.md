@@ -2,7 +2,7 @@
 title: "Bâle (Suisse)-Rheinfelden (Allemagne)"
 date: 2019-04-07
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-07_1.jpg
 ---

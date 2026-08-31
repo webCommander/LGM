@@ -2,7 +2,7 @@
 title: "Slano / Dubrovnik (Croatie)"
 date: 2019-06-21
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-21_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-21_2.jpg

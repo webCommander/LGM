@@ -8,14 +8,28 @@ Le site dispose d'une interface d'administration en ligne (Sveltia CMS), accessi
 
 1. Ouvrir la page `/admin/` dans le navigateur.
 2. Se connecter avec son compte GitHub (une seule fois, la session est mémorisée).
-3. Choisir la rubrique (Paris — Ispahan, Tour des Zagoria, Autres articles).
-4. Cliquer sur **Nouvel article**, remplir le titre et la date, écrire le texte.
+3. Ouvrir **Articles**, puis cliquer sur **Nouvel article**.
+4. Remplir le titre et la date, choisir la catégorie, puis écrire le texte.
 5. Les images s'ajoutent par glisser-déposer directement dans le texte.
 6. Cliquer sur **Enregistrer** : l'article est publié et le site se met à jour tout seul en une ou deux minutes.
 
 Aucune connaissance de Git ni du Markdown n'est nécessaire. La case « Brouillon » permet d'enregistrer un article sans le faire apparaître sur le site.
 
 Les sections suivantes décrivent l'ancienne méthode manuelle (Typora + GitHub Desktop), qui reste utilisable.
+
+## Ajouter une catégorie depuis l'administration
+
+Les catégories correspondent aux voyages affichés dans le menu déroulant du site. Elles se gèrent directement depuis `/admin/` :
+
+1. Ouvrir **Catégories** dans le menu de Sveltia CMS.
+2. Cliquer sur **Nouvelle catégorie**.
+3. Saisir son titre, par exemple `GR4`.
+4. Choisir son ordre dans le menu : les nombres les plus petits apparaissent en premier.
+5. Ajouter éventuellement une description, puis cliquer sur **Enregistrer**.
+
+La nouvelle catégorie apparaît automatiquement dans le menu **Voyages** du site. Pour la masquer temporairement sans la supprimer, activer **Masquer dans le menu**.
+
+Pour écrire dans cette rubrique, ouvrir ensuite **Articles**, créer un article et la sélectionner dans le champ **Catégorie**. Une catégorie doit être créée avant de pouvoir être sélectionnée dans un article.
 
 ## Outils recommandés
 
@@ -40,7 +54,7 @@ Apache OpenOffice ne convient pas à ce fonctionnement. Si LibreOffice est utili
 
 | Élément | Emplacement |
 |---|---|
-| Configuration et menu | `config.toml` |
+| Catégories et menu des voyages | `content/blog/*/_index.md` |
 | Configuration de l'accueil | `content/_index.md` |
 | Articles Paris–Ispahan | `content/blog/paris-ispahan/` |
 | Articles Tour des Zagoria | `content/blog/tour-des-zagoria/` |
@@ -66,13 +80,15 @@ Cette étape évite de travailler sur une ancienne version du blog.
 
 ## Ajouter un article
 
-### 1. Choisir sa section
+### 1. Choisir sa catégorie
 
-Créer le fichier dans le dossier correspondant :
+Créer le fichier dans le dossier de la catégorie correspondante, sous `content/blog/`. Par exemple :
 
 - Paris–Ispahan : `content/blog/paris-ispahan/`
-- Tour des Zagoria : `content/blog/tour-des-zagoria/`
-- Autre : `content/blog/autre/`
+- GR4 : `content/blog/gr4/`
+- Sicile : `content/blog/sicile/`
+
+Le nom du dossier est également visible dans l'adresse de la catégorie sur le site.
 
 ### 2. Nommer le fichier
 
@@ -101,7 +117,7 @@ Dans le nom du fichier :
 title: "Départ pour le Jura"
 date: 2026-07-13
 draft: false
-categories: ["autre"]
+category: autre
 ---
 
 Texte du nouvel article.
@@ -113,7 +129,7 @@ Adapter :
 
 - `title` : titre affiché sur le site ;
 - `date` : date au format `année-mois-jour` ;
-- `categories` : `paris-ispahan`, `tour-des-zagoria` ou `autre` ;
+- `category` : nom technique de la catégorie, identique au nom de son dossier ;
 - le texte placé après le second `---`.
 
 Ne pas supprimer les deux lignes `---` qui encadrent les informations de l'article.
@@ -160,7 +176,9 @@ Règles :
 
 Un fichier `.gpx` peut aussi être associé à l'article (champ « Trace GPX de l'étape » dans `/admin/`, ou ligne `gpx: /gpx/mon-fichier.gpx` dans l'en-tête, le fichier étant placé dans `static/gpx/`) : la carte du parcours s'affiche alors automatiquement dans l'article.
 
-## Créer une nouvelle section
+## Créer une nouvelle catégorie manuellement
+
+La création depuis **Catégories** dans `/admin/` est recommandée. La procédure ci-dessous est son équivalent manuel.
 
 Exemple : créer une section appelée « Chemin de Stevenson ».
 
@@ -187,6 +205,7 @@ Contenu :
 ```markdown
 ---
 title: "Chemin de Stevenson"
+weight: 7
 ---
 
 Les récits de notre marche sur le chemin de Stevenson.
@@ -206,42 +225,15 @@ Exemple :
 content/blog/chemin-stevenson/2026-07-13-le-depart.md
 ```
 
-## Ajouter une section au menu
+## Modifier le menu des voyages
 
-Ouvrir `config.toml` et repérer la partie `# Menus`.
+Le menu déroulant **Voyages** est généré automatiquement depuis les catégories. Il n'est plus nécessaire de modifier `config.toml`.
 
-Ajouter ce bloc après les autres liens :
+Dans `/admin/`, ouvrir **Catégories**, puis sélectionner une catégorie :
 
-```toml
-  [[menu.main]]
-    identifier = "chemin-stevenson"
-    name = "Chemin de Stevenson"
-    url = "/blog/chemin-stevenson/"
-    weight = 5
-```
-
-Signification :
-
-- `identifier` : nom technique unique, sans espace ni accent ;
-- `name` : texte visible dans le menu ;
-- `url` : adresse de la section, identique au nom de son dossier ;
-- `weight` : ordre du lien dans le menu. Le plus petit nombre apparaît en premier.
-
-Ne pas ajouter de virgule entre les blocs du menu.
-
-## Modifier le menu existant
-
-Le menu principal est entièrement défini dans `config.toml`.
-
-Pour renommer un lien, modifier uniquement `name` :
-
-```toml
-name = "Paris à Ispahan"
-```
-
-Pour changer son ordre, modifier `weight`.
-
-Pour retirer temporairement un lien, supprimer son bloc complet composé des cinq lignes allant de `[[menu.main]]` à `weight`.
+- modifier **Titre** pour la renommer ;
+- modifier **Ordre dans le menu** pour la déplacer ;
+- activer **Masquer dans le menu** pour la retirer temporairement du menu sans supprimer ses articles.
 
 ## Gérer la page d'accueil
 

@@ -2,7 +2,7 @@
 title: "Repos (un peu forcé) à Alexandroupoli (Grèce)"
 date: 2019-08-16
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Alexandropouli pourrait sembler de premier abord sans attrait, mais elle nous a séduits. Rien d’extraordinaire, des rues en quadrillage régulier, rien d’ancien, de bêtes immeubles, mais on y sent une douceur de vivre et aprés la longue coupure de l’aprés-midi la ville se réveille pour une soirée animée, tous les habitants semblent rassemblés sur le port et les rues adjacentes.

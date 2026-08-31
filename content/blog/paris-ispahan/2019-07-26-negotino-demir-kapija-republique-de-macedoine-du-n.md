@@ -2,7 +2,7 @@
 title: "Negotino / Demir Kapija (République de Macédoine du Nord)"
 date: 2019-07-26
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J113, 20 km de marche, cumul à pied 1883 km, cumul total 3393 km.

@@ -2,7 +2,7 @@
 title: "Reith bei Seefeld / Innsbruck (Autriche)"
 date: 2019-04-25
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Innsbruck ! Dans notre tête, le premier « gros marqueur » de notre longue marche (le Lac de Constance et Brégence en étaient aussi, mais « trop près »). En plus, on arrive aux 400 km à pied donc environ le 1/10ème de notre périple pour la partie Marche. Nous sommes partagés entre le sentiment que nos organismes commencent à prendre leur rythme et celui qu’ils sont un peu épuisés avec un besoin impérieux de repos. Pour les pieds de l’équipier « aux appuis forts » en tous cas, cela fera du bien. Oh merci Hélène pour le « Comfeel » ! Retenez, pour les ampoules, Comfeel, c’est pratique et magique !

@@ -2,7 +2,7 @@
 title: "Silivri / Kumburgaz (Turquie)"
 date: 2019-08-27
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-08-27_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-08-27_2.jpg

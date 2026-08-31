@@ -2,7 +2,7 @@
 title: "Erzurum (Turquie) / Tabriz (Iran)"
 date: 2019-10-22
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-10-22_1.jpg
 ---

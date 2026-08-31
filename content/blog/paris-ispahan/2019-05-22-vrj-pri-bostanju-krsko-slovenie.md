@@ -2,7 +2,7 @@
 title: "Vrj pri Bostanju / Krsko (Slovénie)"
 date: 2019-05-22
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Non, quand on explique que nous allons à Krsko, personne ne comprend… Pour le « Doberdan » (bonjour) nous sommes bien rôdés et bien compris maintenant – après moult réflexions, nous avons adopté la stratégie de dire spontanément « Doberdan – Bonjour », comme çà on affiche à la fois notre respect pour notre pays d’accueil et notre identité de Français – mais presque tout reste impénétrable pour nous, même pour « Hvala » (merci) nous avons beaucoup de mal!

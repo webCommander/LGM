@@ -2,7 +2,7 @@
 title: "Aica-Rass / Rasun di Sopra (Italie – Sud Tyrol)"
 date: 2019-05-01
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Un peu dépités après avoir passé 2 heures hier soir a essayer en vain de trouver un hébergement un peu « routard » (entendons là à moins de 11O euros la nuit) à Brunico (Bruneck), nous décidons de changer nos plans et d’aller plus loin que Brunico, au premier endroit qui colle à notre budget. On trouve qqc à 47 km de là où nous sommes, et bien on reprendra donc le bus.

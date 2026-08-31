@@ -2,7 +2,7 @@
 title: "Travnik / Busovaca (Bosnie-Herzégovine)"
 date: 2019-06-10
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-10_1.jpg
 ---

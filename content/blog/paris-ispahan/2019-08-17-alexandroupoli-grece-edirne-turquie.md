@@ -2,7 +2,7 @@
 title: "Alexandroupoli (Grèce) / Edirne (Turquie)"
 date: 2019-08-17
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J135, 12 km de marche, 110 km de train, cumul à pied 2134 km, cumul total 4023 km.

@@ -3,6 +3,7 @@
 
 <head>
   {{ partial "head.html" . }}
+  <link rel="stylesheet" href="{{ "css/menu.css" | relURL }}">
 </head>
 
 <body>
@@ -21,16 +22,30 @@
   </header>
 
   <div class="site-content">
-    <!-- Menu principal -->
+    <!-- Menu principal : rubriques gérées depuis Sveltia CMS -->
     <nav class="site-nav" aria-label="Navigation principale">
       <div class="site-nav-inner">
         <a href="/" class="site-brand">{{ .Site.Title }}</a>
         <ul class="site-menu">
-          {{ range .Site.Menus.main }}
-            <li>
-              <a href="{{ .URL }}">{{ .Name }}</a>
-            </li>
-          {{ end }}
+          <li>
+            <details class="site-menu-dropdown">
+              <summary>
+                Voyages
+                <span class="site-menu-chevron" aria-hidden="true"></span>
+              </summary>
+              <ul class="site-submenu">
+                {{ with .Site.GetPage "/blog" }}
+                  {{ range .Sections.ByWeight }}
+                    {{ if not .Params.hide_in_menu }}
+                      <li>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                      </li>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </details>
+          </li>
         </ul>
       </div>
     </nav>

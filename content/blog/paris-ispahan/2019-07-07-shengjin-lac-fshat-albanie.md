@@ -2,7 +2,7 @@
 title: "Shengjin / Laç Fshat (Albanie)"
 date: 2019-07-07
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J94, 30 km de marche, cumul à pied 1625 km, cumul total 2857 km.

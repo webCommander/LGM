@@ -2,7 +2,7 @@
 title: "Bled / … (Le le la !)"
 date: 2019-05-13
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Donc Repos ! Du coup, après un peu plus de 700 km, petit point sur le volet « marche ».

@@ -2,7 +2,7 @@
 title: "Kariani (Grèce)"
 date: 2019-08-05
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-08-05_1.jpg
 ---

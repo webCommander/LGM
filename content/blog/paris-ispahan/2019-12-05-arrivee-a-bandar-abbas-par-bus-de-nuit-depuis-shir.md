@@ -2,7 +2,7 @@
 title: "Arrivée à Bandar-Abbas par bus de nuit depuis Shiraz (Iran)"
 date: 2019-12-05
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J200, 14 km de marche, 573 km de bus, cumul à pied 2971 km, cumul total 7414 km. En Iran : Cumul à pied 518 km, cumul total 3247 km.

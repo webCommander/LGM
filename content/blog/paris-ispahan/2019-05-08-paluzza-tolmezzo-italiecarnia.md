@@ -2,7 +2,7 @@
 title: "Paluzza / Tolmezzo (Italie/Carnia)"
 date: 2019-05-08
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-08_1.jpg
 ---

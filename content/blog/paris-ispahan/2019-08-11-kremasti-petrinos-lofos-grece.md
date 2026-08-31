@@ -2,7 +2,7 @@
 title: "Kremasti / Petrinos Lofos (Grèce)"
 date: 2019-08-11
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J129, 28 km de marche, 4 km de voiture, cumul à pied 2057 km, cumul total 3776 km.

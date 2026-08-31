@@ -2,7 +2,7 @@
 title: "Skofja Loka / Ljubljana (Slovénie)"
 date: 2019-05-16
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Ljubljana !

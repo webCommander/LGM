@@ -2,7 +2,7 @@
 title: "Nodooshan / Ammeh Robab Ecolodge, euh en fait non… Ardakan (Iran)"
 date: 2019-11-26
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-26_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-26_2.jpg

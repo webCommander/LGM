@@ -2,7 +2,7 @@
 title: "Yazd / Shiraz (Iran)"
 date: 2019-12-01
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J196, 5 km de marche, 440 km de bus et taxi, cumul à pied 2957 km, cumul total 6827 km. En Iran : Cumul à pied 504 km, cumul total 2660 km.

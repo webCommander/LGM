@@ -2,7 +2,7 @@
 title: "Journée Shiraz et Persépolis (Iran)"
 date: 2019-12-03
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Persépolis nous a subjugués, bien « racontée » par notre guide Ali, qui avait accompagné notre président Chirac en son temps!

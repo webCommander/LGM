@@ -2,7 +2,7 @@
 title: "Erzurum et « Büyük Tabya » (Turquie)"
 date: 2019-10-20
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Encore une journée avant l’ouverture demain matin de l’ambassade d’Iran, nous décidons donc de faire une marche pour tromper notre impatience de repartir, il faut profiter du relatif beau temps de la matinée. C’est légers que nous partons en direction d’une ancienne forteresse de Buyuk Tabya, dans la montagne, 25 km aller retour avec un dénivelé de 500m et même si à l’arrivée nous sentons bien nos jambes, pour certain le genou, nous rentrons plutôt guillerets !

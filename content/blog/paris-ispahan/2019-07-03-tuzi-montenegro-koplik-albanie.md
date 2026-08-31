@@ -2,7 +2,7 @@
 title: "Tuzi (Monténégro) / Koplik (Albanie)"
 date: 2019-07-03
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-03_1.jpg
 ---

@@ -2,7 +2,7 @@
 title: "Innsbruck / … Innsbruck !… Journée Touristes"
 date: 2019-04-26
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Journée off. Juste quelques photos.

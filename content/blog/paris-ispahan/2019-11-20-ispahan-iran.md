@@ -2,7 +2,7 @@
 title: "Ispahan (Iran)"
 date: 2019-11-20
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J185.

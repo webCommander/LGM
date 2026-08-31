@@ -2,7 +2,7 @@
 title: "Balderschwang / Tiefenbach-Oberstdorf (Allemagne)"
 date: 2019-04-19
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-19_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-19_2.jpg

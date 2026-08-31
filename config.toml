@@ -15,23 +15,5 @@ date = "date"
 [markup.goldmark.renderer]
 hardWraps = true
 
-# Menus
-[menu]
-
-  [[menu.main]]
-    identifier = "paris-ispahan"
-    name = "Paris Ispahan"
-    url = "/blog/paris-ispahan/"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "tour-des-zagoria"
-    name = "Tour des Zagoria"
-    url = "/blog/tour-des-zagoria/"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "autre"
-    name = "Autre"
-    url = "/blog/autre/"
-    weight = 4
+# Le menu des voyages est généré depuis les sous-sections de content/blog.
+# Les rubriques et leur ordre sont administrables depuis Sveltia CMS.

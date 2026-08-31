@@ -2,7 +2,7 @@
 title: "Tourisme à Téhéran (Iran)"
 date: 2019-11-14
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Magie des auberges de jeunesse ! Où, entre parenthèses, l’on rencontre décidément plus de vieux que de jeunes… dans celles que nous choisissons en tous cas. Magie des rencontres, non plus « Locales » comme pendant notre marche, mais « Globales », et tout aussi chaleureuses et intéressantes.

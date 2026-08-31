@@ -2,7 +2,7 @@
 title: "Banja Luka / Krupi na Vrbsu (Bosnie-Herzégovine)"
 date: 2019-06-02
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-02_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-02_2.jpg

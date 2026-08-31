@@ -2,7 +2,7 @@
 title: "Dubrovnik / Gruda (Croatie)"
 date: 2019-06-22
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J79, 32 km de marche, cumul à pied 1361 km, cumul total 2572 km.

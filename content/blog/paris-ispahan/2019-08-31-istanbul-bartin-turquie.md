@@ -2,7 +2,7 @@
 title: "Istanbul / Bartin (Turquie)"
 date: 2019-08-31
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J148, 3 km de marche, 490 km de bus (et un peu de tram et métro), cumul à pied 2350 km, cumul total 4729 km.

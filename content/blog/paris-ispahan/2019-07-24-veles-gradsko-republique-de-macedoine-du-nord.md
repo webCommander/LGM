@@ -2,7 +2,7 @@
 title: "Veles / Gradsko (République de Macédoine du Nord)"
 date: 2019-07-24
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-24_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-24_2.jpg

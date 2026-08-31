@@ -2,7 +2,7 @@
 title: "Valandovo / Dojran (République de Macédoine du Nord)"
 date: 2019-07-28
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-28_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-28_2.jpg

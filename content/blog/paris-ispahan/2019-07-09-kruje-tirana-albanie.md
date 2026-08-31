@@ -2,7 +2,7 @@
 title: "Krujë / Tirana (Albanie)"
 date: 2019-07-09
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-09_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-09_2.jpg

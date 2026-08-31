@@ -2,7 +2,7 @@
 title: "Lingenau (Autriche) / Balderschwang (Allemagne – Bayern)"
 date: 2019-04-18
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-18_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-18_2.jpg

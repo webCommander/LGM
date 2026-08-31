@@ -2,7 +2,7 @@
 title: "Corlu / Marmara Ereglesi (Turquie)"
 date: 2019-08-24
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J142, 26 km de marche, cumul à pied 2286 km, cumul total 4224 km.

@@ -83,9 +83,9 @@ Voir [GUIDE_GESTION_CONTENU.md](GUIDE_GESTION_CONTENU.md) — il couvre le nomma
 
 En résumé pour un dev :
 
-1. Créer `content/blog/<section>/AAAA-MM-JJ-titre.md` avec son front matter.
+1. Créer `content/blog/<categorie>/AAAA-MM-JJ-titre.md` avec son front matter et son champ `category`.
 2. Déposer les images dans `static/images/<section>/`.
 3. Vérifier le rendu en local (`docker compose up`).
 4. Commit + push sur `main` → déploiement automatique.
 
-Pour ajouter une section au menu, éditer le bloc `[menu]` de [config.toml](config.toml) et créer le dossier `content/blog/<section>/` avec un `_index.md`.
+Les catégories et leur ordre dans le menu déroulant se gèrent depuis la collection **Catégories** de Sveltia CMS. Chaque catégorie correspond à un dossier `content/blog/<categorie>/` contenant un fichier `_index.md`.

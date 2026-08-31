@@ -2,7 +2,7 @@
 title: "Buyukkaristiran / Corlu (Turquie)"
 date: 2019-08-23
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J141, 19 km de marche, 19 km de bus/taxi, cumul à pied 2260 km, cumul total 4198 km.

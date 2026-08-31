@@ -2,7 +2,7 @@
 title: "Njegusi / Cetinje (Monténégro)"
 date: 2019-06-28
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-28_1.jpg
 ---

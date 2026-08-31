@@ -2,7 +2,7 @@
 title: "Amasra / Çakrazova (Turquie)"
 date: 2019-09-02
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J150, 24 km de marche, cumul à pied 2399 km, cumul total 4778 km.

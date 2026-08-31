@@ -2,7 +2,7 @@
 title: "Maroneia / Alexandroupoli (Grèce)"
 date: 2019-08-15
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J133, 27 km de marche, 20 km en voiture, cumul à pied 2122 km, cumul total 3901 km.

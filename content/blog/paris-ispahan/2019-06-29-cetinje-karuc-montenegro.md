@@ -2,7 +2,7 @@
 title: "Cetinje / Karuc (Monténégro)"
 date: 2019-06-29
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-29_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-29_2.jpg

@@ -2,7 +2,7 @@
 title: "Babaeski / Luluburgaz (Turquie)"
 date: 2019-08-21
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J139, 29 km de marche, cumul à pied 2217 km, cumul total 4132 km.

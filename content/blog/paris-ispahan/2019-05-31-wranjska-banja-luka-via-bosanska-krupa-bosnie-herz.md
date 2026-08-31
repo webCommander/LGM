@@ -2,7 +2,7 @@
 title: "Wranjska / Banja Luka via Bosanska Krupa (Bosnie-Herzégovine)"
 date: 2019-05-31
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-31_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-31_2.jpg

@@ -2,7 +2,7 @@
 title: "Kashan / Ispahan – ou Esfahan – (Iran)"
 date: 2019-11-18
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J183, 5 km de marche, 215 km de bus et un peu de taxi. Cumul à pied 2890 km, cumul total 6884 km. En Iran, cumul à pied 435 km, cumul total 1827 km.

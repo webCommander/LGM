@@ -2,7 +2,7 @@
 title: "Journée repos et tourisme à Ardabil (Iran)"
 date: 2019-10-31
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-10-31_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-10-31_2.jpg

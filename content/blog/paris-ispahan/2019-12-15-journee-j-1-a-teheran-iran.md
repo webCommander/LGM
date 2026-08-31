@@ -2,7 +2,7 @@
 title: "Journée « J-1 » à Téhéran (Iran)"
 date: 2019-12-15
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Jeudi 12 et vendredi 13 décembre 2019 – Bandar-Abbas / Téhéran (Iran)

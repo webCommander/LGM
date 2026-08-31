@@ -2,7 +2,7 @@
 title: "Pétroto / Thessalonique (Grèce)"
 date: 2019-08-01
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J119, 15 km de marche, 12 km de Bus, cumul à pied 2021 km, cumul total 3543 km.

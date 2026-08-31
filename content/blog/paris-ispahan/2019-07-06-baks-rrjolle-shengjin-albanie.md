@@ -2,7 +2,7 @@
 title: "Baks Rrjollë / Shengjin (Albanie)"
 date: 2019-07-06
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-06_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-06_2.jpg

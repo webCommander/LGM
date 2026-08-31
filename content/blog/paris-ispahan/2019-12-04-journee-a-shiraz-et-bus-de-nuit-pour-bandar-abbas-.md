@@ -2,7 +2,7 @@
 title: "Journée à Shiraz et bus de nuit pour Bandar-Abbas (Iran)"
 date: 2019-12-04
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J199, 5 km de marche, 580 km de bus et taxi, cumul à pied 2962 km, cumul total 7412 km. En Iran : Cumul à pied 509 km, cumul total 3245 km.

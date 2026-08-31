@@ -2,7 +2,7 @@
 title: "Ispahan / Varzaneh (Iran)"
 date: 2019-11-23
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J187, 5 km de marche, 105 km en bus. Cumul à pied 2895 km, cumul total 6994 km. En Iran : Cumul à pied 440 km, cumul total 1937 km.

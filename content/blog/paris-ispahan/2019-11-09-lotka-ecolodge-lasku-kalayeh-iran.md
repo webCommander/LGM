@@ -2,7 +2,7 @@
 title: "Lotka Ecolodge / Lasku kalayeh (Iran)"
 date: 2019-11-09
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-09_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-09_2.jpg

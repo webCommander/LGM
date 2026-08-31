@@ -2,7 +2,7 @@
 title: "Ljubinje / Ravno (Bosnie-Herzégovine)"
 date: 2019-06-19
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J76, 22 km de marche, cumul à pied 1299 km, cumul total 2485 km.

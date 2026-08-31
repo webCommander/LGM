@@ -2,7 +2,7 @@
 title: "Kranjska Gora / Mojstrana (Slovenie)"
 date: 2019-05-11
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-11_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-11_2.jpg

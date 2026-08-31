@@ -2,7 +2,7 @@
 title: "Journée de préparatifs à Istanbul (Turquie)"
 date: 2019-08-30
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Aujourd’hui, fête nationale Turque, « the Victory Day »! Les heures de gloire de Mustafa Kemal en 1922. Un monde incroyable de partout ! Dans la vieille ville et le Grand Bazar dans lequel nous sommes allés faire un tour. Et aussi dans l’Istanbul « moderne » et son emblématique place Taksim que nous sommes aussi allés voir. Les foules sont impressionnantes ! Les ambiances très différentes de chaque côté de la Corne d’Or. Le passage « de l’autre côté » vaut le coup ! Istanbul est une ville Monde, tellement immense, impressionnante, parfois inquiétante, toujours fascinante.

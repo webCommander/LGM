@@ -2,7 +2,7 @@
 title: "Bartin /Amasra (Turquie)"
 date: 2019-09-01
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J149, 25 km de marche, cumul à pied 2375 km, cumul total 4754 km.

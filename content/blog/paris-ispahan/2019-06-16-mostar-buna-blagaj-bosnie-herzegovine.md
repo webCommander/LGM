@@ -2,7 +2,7 @@
 title: "Mostar / Buna / Blagaj (Bosnie-Herzégovine)"
 date: 2019-06-16
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-16_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-16_2.jpg

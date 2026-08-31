@@ -2,7 +2,7 @@
 title: "Dojran Sud / Dojran encore un peu plus Sud… (République de Macédoine du Nord)"
 date: 2019-07-29
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J116, 5 km de marche (…), cumul à pied 1948 km, cumul total 3458 km.

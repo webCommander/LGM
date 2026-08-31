@@ -2,7 +2,7 @@
 title: "Rorschach (Suisse) / Brégence – Hard (Autriche)"
 date: 2019-04-15
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-15_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-15_2.jpg

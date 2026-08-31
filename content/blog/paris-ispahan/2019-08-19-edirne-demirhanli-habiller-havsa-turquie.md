@@ -2,7 +2,7 @@
 title: "Edirne / Demirhanli / Habiller / Havsa (Turquie)"
 date: 2019-08-19
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-08-19_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-08-19_2.jpg

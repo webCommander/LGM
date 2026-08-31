@@ -2,7 +2,7 @@
 title: "Journée à Téhéran (Iran)"
 date: 2019-11-16
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Coup d’épée dans l’eau aujourd’hui pour le prolongement de notre visa!! Nous étions pourtant accompagnés d’Hamidreza, un employé de Siavach, mais rien à faire, il reste encore quelques jours et la règle est de le renouveler 2 jours avant la date d’expiration. La rêgle semble surtout qu’il ne faut pas faire le renouvellement à Téhéran, mais plutôt en province, où ils sont plus coopératifs et moins débordés….Un peu déçus mais pas trop, espérons qu’il n’y aura pas de problème à Kashan, nous y serons demain, départ en bus 9H40.

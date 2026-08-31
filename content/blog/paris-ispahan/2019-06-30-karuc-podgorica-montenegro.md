@@ -2,7 +2,7 @@
 title: "Karuc / Podgorica (Monténégro)"
 date: 2019-06-30
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-30_1.jpg
 ---

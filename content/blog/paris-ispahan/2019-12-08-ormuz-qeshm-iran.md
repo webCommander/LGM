@@ -2,7 +2,7 @@
 title: "Ormuz / Qeshm (Iran)"
 date: 2019-12-08
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J203, 4 km de marche, 27 km de bateau, cumul à pied 2978 km, cumul total 7496 km. En Iran : Cumul à pied 525 km, cumul total 3319 km.

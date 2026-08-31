@@ -2,7 +2,7 @@
 title: "Ardabil / Abi Beyglu (Iran) J166, 27 km de marche, cumul à pied 2640 km, cumul total 5651 km. En Iran : cumul à pied 185 km, cumul total 604 km."
 date: 2019-11-01
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-01_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-01_2.jpg

@@ -2,7 +2,7 @@
 title: "Kariani / Kremasti (Grèce)"
 date: 2019-08-10
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J128, 8 km de marche, 193 km en voiture (depuis Thessalonique jusqu’à Thalassia), cumul à pied 2029 km, cumul total 3744 km.

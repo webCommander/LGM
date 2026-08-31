@@ -2,7 +2,7 @@
 title: "Tabriz / khajeh / Sheykh Rajab / Mehraban (Iran)"
 date: 2019-10-26
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-10-26_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-10-26_2.jpg

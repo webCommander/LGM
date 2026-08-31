@@ -2,7 +2,7 @@
 title: "Bandar-Abbas / Ormuz (Iran)"
 date: 2019-12-06
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J201, 3 km de marche, 48 km de bateau, cumul à pied 2974 km, cumul total 7465 km. En Iran : Cumul à pied 521 km, cumul total 3288 km.

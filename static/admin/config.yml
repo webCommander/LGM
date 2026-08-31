@@ -17,47 +17,45 @@ slug:
   clean_accents: true
 
 collections:
-  - name: "paris-ispahan"
-    label: "Paris — Ispahan"
-    label_singular: "article Paris — Ispahan"
-    folder: "content/blog/paris-ispahan"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sortable_fields: ["date", "title"]
-    fields:
-      - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
-      - { label: "Photos de l'article", name: "photos", widget: "image", multiple: true, required: false, hint: "Glissez-déposez une ou plusieurs photos. La première sert de vignette dans les listes ; toutes s'affichent en galerie en haut de l'article." }
-      - { label: "Trace GPX de l'étape", name: "gpx", widget: "file", required: false, media_folder: "/static/gpx", public_folder: "/gpx", hint: "Déposez le fichier .gpx de la journée : la carte du parcours s'affichera automatiquement dans l'article." }
-      - { label: "Brouillon (ne pas publier sur le site)", name: "draft", widget: "boolean", default: false }
-      - { label: "Texte de l'article", name: "body", widget: "markdown" }
-
-  - name: "tour-des-zagoria"
-    label: "Tour des Zagoria"
-    label_singular: "article Tour des Zagoria"
-    folder: "content/blog/tour-des-zagoria"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sortable_fields: ["date", "title"]
-    fields:
-      - { label: "Titre", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
-      - { label: "Photos de l'article", name: "photos", widget: "image", multiple: true, required: false, hint: "Glissez-déposez une ou plusieurs photos. La première sert de vignette dans les listes ; toutes s'affichent en galerie en haut de l'article." }
-      - { label: "Trace GPX de l'étape", name: "gpx", widget: "file", required: false, media_folder: "/static/gpx", public_folder: "/gpx", hint: "Déposez le fichier .gpx de la journée : la carte du parcours s'affichera automatiquement dans l'article." }
-      - { label: "Brouillon (ne pas publier sur le site)", name: "draft", widget: "boolean", default: false }
-      - { label: "Texte de l'article", name: "body", widget: "markdown" }
-
-  - name: "autre"
-    label: "Autres articles"
+  - name: "articles"
+    label: "Articles"
     label_singular: "article"
-    folder: "content/blog/autre"
+    folder: "content/blog"
+    path: "{{category}}/{{slug}}"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sortable_fields: ["date", "title"]
+    summary: "{{title}} — {{category}} — {{date}}"
+    sortable_fields: ["date", "title", "category"]
+    view_groups:
+      - label: "Catégorie"
+        field: "category"
     fields:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+      - label: "Catégorie"
+        name: "category"
+        widget: "relation"
+        collection: "categories"
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        search_fields: ["title"]
+        hint: "Choisissez le voyage auquel rattacher l'article. Pour en ajouter un, utilisez d'abord l'écran Catégories."
       - { label: "Photos de l'article", name: "photos", widget: "image", multiple: true, required: false, hint: "Glissez-déposez une ou plusieurs photos. La première sert de vignette dans les listes ; toutes s'affichent en galerie en haut de l'article." }
       - { label: "Trace GPX de l'étape", name: "gpx", widget: "file", required: false, media_folder: "/static/gpx", public_folder: "/gpx", hint: "Déposez le fichier .gpx de la journée : la carte du parcours s'affichera automatiquement dans l'article." }
       - { label: "Brouillon (ne pas publier sur le site)", name: "draft", widget: "boolean", default: false }
       - { label: "Texte de l'article", name: "body", widget: "markdown" }
+
+  - name: "categories"
+    label: "Catégories"
+    label_singular: "catégorie"
+    folder: "content/blog"
+    path: "{{slug}}/_index"
+    extension: "md"
+    create: true
+    summary: "{{title}}"
+    sortable_fields: ["weight", "title"]
+    fields:
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Ordre dans le menu", name: "weight", widget: "number", value_type: "int", min: 1, default: 10, hint: "Les plus petits nombres apparaissent en premier." }
+      - { label: "Masquer dans le menu", name: "hide_in_menu", widget: "boolean", default: false, required: false }
+      - { label: "Description", name: "body", widget: "markdown", required: false }

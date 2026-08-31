@@ -2,7 +2,7 @@
 title: "Podgorica / Tuzi (Monténégro)"
 date: 2019-07-02
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J89, 13 km de marche, cumul à pied 1495 km, cumul total 2727 km.

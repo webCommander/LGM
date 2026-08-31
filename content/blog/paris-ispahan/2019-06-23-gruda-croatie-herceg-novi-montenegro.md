@@ -2,7 +2,7 @@
 title: "Gruda (Croatie) / Herceg Novi (Montenegro)"
 date: 2019-06-23
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-23_1.jpg
 ---

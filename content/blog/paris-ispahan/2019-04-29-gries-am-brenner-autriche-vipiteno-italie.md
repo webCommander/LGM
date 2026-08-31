@@ -2,7 +2,7 @@
 title: "Gries Am Brenner (Autriche) / Vipiteno (Italie !)"
 date: 2019-04-29
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-29_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-04-29_2.jpg

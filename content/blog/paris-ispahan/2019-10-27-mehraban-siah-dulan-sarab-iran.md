@@ -2,7 +2,7 @@
 title: "Mehraban / Siah Dulan / Sarab (Iran)"
 date: 2019-10-27
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-10-27_1.jpg
 ---

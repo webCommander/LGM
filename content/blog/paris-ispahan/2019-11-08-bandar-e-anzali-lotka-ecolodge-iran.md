@@ -2,7 +2,7 @@
 title: "Bandar-e-Anzali / Lotka Ecolodge (Iran)"
 date: 2019-11-08
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-08_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-08_2.jpg

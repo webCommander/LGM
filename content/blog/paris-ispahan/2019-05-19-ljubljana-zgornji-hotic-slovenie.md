@@ -2,7 +2,7 @@
 title: "Ljubljana / Zgornji Hotic (Slovénie)"
 date: 2019-05-19
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-19_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-19_2.jpg

@@ -2,7 +2,7 @@
 title: "Padola / Sappada (Italie)"
 date: 2019-05-04
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-04_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-04_2.jpg

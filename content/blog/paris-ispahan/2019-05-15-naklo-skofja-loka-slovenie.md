@@ -2,7 +2,7 @@
 title: "Naklo / Skofja Loka (Slovénie)"
 date: 2019-05-15
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-15_1.jpg
 ---

@@ -2,7 +2,7 @@
 title: "Tirana (Albanie) / Pristina (Kosovo), en bus"
 date: 2019-07-12
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J99, 7 km de marche, 241 km de bus, cumul à pied 1667 km, cumul total 3158 km.

@@ -2,7 +2,7 @@
 title: "Ardakan / Meybod (Iran)"
 date: 2019-11-27
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-11-27_1.jpg
 ---

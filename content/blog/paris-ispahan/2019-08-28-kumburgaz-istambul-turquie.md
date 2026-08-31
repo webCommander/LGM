@@ -2,7 +2,7 @@
 title: "Kumburgaz / Istambul (Turquie)"
 date: 2019-08-28
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 J145, 3 km à pied, 51 km en Bus/Métro/Tramway, cumul à pied 2347 km, cumul total 4236 km.

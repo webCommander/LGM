@@ -2,7 +2,7 @@
 title: "Erzurum / Journée Visas (Turquie)"
 date: 2019-10-21
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-10-21_1.jpg
 ---

@@ -2,7 +2,7 @@
 title: "Sarajevo (Bosnie-Herzégovine)"
 date: 2019-06-14
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-06-14_1.jpg
 ---

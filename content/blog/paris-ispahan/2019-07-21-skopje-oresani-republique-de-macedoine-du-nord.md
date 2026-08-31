@@ -2,7 +2,7 @@
 title: "Skopje / Oresani (République de Macédoine du Nord)"
 date: 2019-07-21
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-07-21_1.jpg
 ---

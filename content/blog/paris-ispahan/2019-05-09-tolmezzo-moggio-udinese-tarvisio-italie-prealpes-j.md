@@ -2,7 +2,7 @@
 title: "Tolmezzo / Moggio Udinese / Tarvisio (Italie – PréAlpes Juliennes)"
 date: 2019-05-09
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-09_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-09_2.jpg

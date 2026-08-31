@@ -2,7 +2,7 @@
 title: "Zgornji Hotic / Sobota (Slovénie)"
 date: 2019-05-20
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 photos:
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-20_1.jpg
   - /images/uploads/paris-ispahan/paris-ispahan_2019-05-20_2.jpg

@@ -60,3 +60,21 @@
     window.addEventListener('wheel', onWheel, { passive: false });
   })();
 </script>
+
+<script>
+  (() => {
+    const dropdown = document.querySelector('.site-menu-dropdown');
+    if (!dropdown) return;
+
+    document.addEventListener('click', (event) => {
+      if (!dropdown.contains(event.target)) dropdown.removeAttribute('open');
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        dropdown.removeAttribute('open');
+        dropdown.querySelector('summary').focus();
+      }
+    });
+  })();
+</script>

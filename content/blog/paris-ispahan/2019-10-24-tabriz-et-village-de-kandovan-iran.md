@@ -2,7 +2,7 @@
 title: "Tabriz et village de Kandovan (Iran)"
 date: 2019-10-24
 draft: false
-categories: ["paris-ispahan"]
+category: paris-ispahan
 ---
 
 Programme très tranquille pour notre dernière journée à Tabriz.
