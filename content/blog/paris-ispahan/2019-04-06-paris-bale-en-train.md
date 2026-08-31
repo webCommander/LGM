@@ -2,8 +2,8 @@
 title: Paris-Bâle en train…
 date: 2019-04-06
 photos:
-  - /images/uploads/concept-coupon-7.jpeg
-  - /images/uploads/bmind-box-figurines-bisounours-4-3.webp
+  - /images/uploads/AAB La Varenne.jpg
+  - /images/uploads/AAA Tour Effel.jpg
 gpx: /gpx/paris-bale-test.gpx
 draft: false
 categories:
