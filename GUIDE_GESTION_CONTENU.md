@@ -4,7 +4,7 @@ Ce guide explique comment ajouter des articles, des images, des sections et des 
 
 ## La méthode la plus simple : l'interface d'administration
 
-Le site dispose d'une interface d'administration en ligne (Sveltia CMS), accessible à l'adresse **`/admin/`** du site (par exemple `https://votre-site.netlify.app/admin/`). C'est la méthode recommandée pour écrire des articles :
+Le site dispose d'une interface d'administration en ligne (Sveltia CMS), accessible à l'adresse **`/admin/`** du site (par exemple `https://webcommander.github.io/LGM/admin/`). C'est la méthode recommandée pour écrire des articles :
 
 1. Ouvrir la page `/admin/` dans le navigateur.
 2. Se connecter avec son compte GitHub (une seule fois, la session est mémorisée).
@@ -148,7 +148,7 @@ Pour conserver l'article comme brouillon :
 draft: true
 ```
 
-Un brouillon n'est pas publié par Netlify.
+Un brouillon n'est pas publié sur le site.
 
 ## Ajouter des images à un article
 
@@ -291,7 +291,7 @@ Après avoir ajouté ou modifié les fichiers :
 4. Saisir un résumé, par exemple `Ajout de l'article Départ pour le Jura`.
 5. Cliquer sur **Commit to main**.
 6. Cliquer sur **Push origin**.
-7. Attendre le déploiement automatique Netlify.
+7. Attendre le déploiement automatique GitHub Pages (onglet *Actions* du dépôt).
 
 Le site en ligne est généralement actualisé quelques minutes après le `Push origin`.
 

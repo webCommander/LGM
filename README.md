@@ -10,11 +10,10 @@ Site statique généré avec [Hugo](https://gohugo.io/), basé sur le thème [An
 
 | Élément | Détail |
 |---|---|
-| Générateur | Hugo (v0.149.1 en dev via Docker, v0.128.0 en CI) |
+| Générateur | Hugo (v0.149.1 en dev via Docker, v0.135.0 en CI) |
 | Thème | `themes/gohugo-theme-ananke23` (submodule Git) |
 | Dev local | Docker Compose (`ghcr.io/gohugoio/hugo`) |
 | Déploiement | GitHub Pages via GitHub Actions ([.github/workflows/hugo.yml](.github/workflows/hugo.yml)) |
-| Config alternative | [netlify.toml](netlify.toml) (build Netlify, non utilisé si Pages actif) |
 
 ## Démarrage rapide
 
@@ -74,8 +73,6 @@ La sortie est générée dans `public/`.
 ## Déploiement
 
 Le déploiement est automatique : tout push sur `main` déclenche le workflow GitHub Actions qui build le site (submodules inclus) et le publie sur GitHub Pages. Le workflow peut aussi être lancé manuellement depuis l'onglet *Actions*.
-
-Un [netlify.toml](netlify.toml) est également présent si le site devait être hébergé sur Netlify (`hugo --gc --minify`, publication de `public/`).
 
 ## Ajouter du contenu
 

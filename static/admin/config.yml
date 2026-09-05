@@ -5,7 +5,10 @@ backend:
   name: github
   repo: webCommander/LGM
   branch: main
-  # Authentification via le fournisseur OAuth de Netlify
+  # Authentification via le fournisseur OAuth de Netlify.
+  # À remplacer par l'URL du Worker Cloudflare sveltia-cms-auth
+  # (https://github.com/sveltia/sveltia-cms-auth) AVANT de supprimer
+  # le site Netlify, sinon la connexion à /admin/ ne fonctionnera plus.
   base_url: https://api.netlify.com
 
 media_folder: "static/images/uploads"
