@@ -1,6 +1,6 @@
 baseURL = "http://localhost:1313/"
 languageCode = "fr-fr"
-title = "Les Grandes Marches"
+title = "Les Foulées Persanes"
 theme = "gohugo-theme-ananke23"
 defaultContentLanguage = "fr"
 
