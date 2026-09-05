@@ -11,7 +11,7 @@
         <p class="eyebrow">Journal de route</p>
         <h2 id="latest-title">Derniers articles</h2>
       </div>
-      <a href="/blog/paris-ispahan/" class="text-link">Tous les articles <span aria-hidden="true">→</span></a>
+      <a href="{{ partial "url.html" "/blog/paris-ispahan/" }}" class="text-link">Tous les articles <span aria-hidden="true">→</span></a>
     </div>
 
     <ul class="article-grid">
@@ -20,7 +20,7 @@
         <li class="article-card">
           {{ if $imagePath }}
             <a href="{{ .RelPermalink }}" class="article-card-image">
-              <img src="{{ $imagePath }}" alt="{{ .Title }}">
+              <img src="{{ partial "url.html" $imagePath }}" alt="{{ .Title }}">
             </a>
           {{ end }}
           <div class="article-card-content">

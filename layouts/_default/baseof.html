@@ -9,7 +9,7 @@
 <body>
 
   <!-- Hero (image en haut) -->
-  {{ $hero := .Params.hero | default "/images/hero.jpg" }}
+  {{ $hero := partial "url.html" (.Params.hero | default "/images/hero.jpg") }}
   <header
     class="hero"
     role="img"
@@ -25,7 +25,7 @@
     <!-- Menu principal : rubriques gérées depuis Sveltia CMS -->
     <nav class="site-nav" aria-label="Navigation principale">
       <div class="site-nav-inner">
-        <a href="/" class="site-brand">{{ .Site.Title }}</a>
+        <a href="{{ site.Home.RelPermalink }}" class="site-brand">{{ .Site.Title }}</a>
         <ul class="site-menu">
           <li>
             <details class="site-menu-dropdown">

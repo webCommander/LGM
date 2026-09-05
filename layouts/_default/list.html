@@ -16,7 +16,7 @@
     <li class="article-row">
       {{ if $imagePath }}
         <a href="{{ .RelPermalink }}" class="article-row-image">
-          <img src="{{ $imagePath }}" alt="{{ .Title }}">
+          <img src="{{ partial "url.html" $imagePath }}" alt="{{ .Title }}">
         </a>
       {{ end }}
       <div class="article-row-content">

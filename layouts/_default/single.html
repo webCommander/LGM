@@ -13,8 +13,8 @@
   {{ with .Params.photos }}
   <div class="article-gallery">
     {{ range . }}
-      <a href="{{ . }}" class="glightbox" data-gallery="article-gallery">
-        <img src="{{ . }}" alt="{{ $article.Title }}" loading="lazy" />
+      <a href="{{ partial "url.html" . }}" class="glightbox" data-gallery="article-gallery">
+        <img src="{{ partial "url.html" . }}" alt="{{ $article.Title }}" loading="lazy" />
       </a>
     {{ end }}
   </div>
@@ -22,12 +22,12 @@
 
   <!-- Trace GPX de l'étape -->
   {{ with .Params.gpx }}
-  <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="{{ "vendor/leaflet/leaflet.css" | relURL }}" />
   <div class="article-map">
     <div id="gpx-map" style="height: 380px; border-radius: 8px;"></div>
     <p id="gpx-meta"></p>
   </div>
-  <script src="/vendor/leaflet/leaflet.js"></script>
+  <script src="{{ "vendor/leaflet/leaflet.js" | relURL }}"></script>
   <script>
     (function () {
       var map = L.map('gpx-map', { scrollWheelZoom: false });
@@ -35,7 +35,7 @@
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
       }).addTo(map);
-      fetch({{ . }})
+      fetch({{ partial "url.html" . }})
         .then(function (r) { return r.text(); })
         .then(function (txt) {
           var xml = new DOMParser().parseFromString(txt, 'application/xml');

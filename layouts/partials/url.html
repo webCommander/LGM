@@ -1,0 +1,10 @@
+{{- /* Transforme un chemin absolu du dépôt ("/images/uploads/…") en URL
+     correcte sous le baseURL du site. Indispensable sur GitHub Pages où le
+     site vit sous un sous-chemin (/LGM/) : relURL ignore les chemins
+     commençant par "/", il faut retirer ce slash avant de l'appeler.
+     Les URL externes (http…) sont renvoyées telles quelles. */ -}}
+{{- $p := . -}}
+{{- if and $p (hasPrefix $p "/") (not (hasPrefix $p "//")) -}}
+  {{- $p = relURL (strings.TrimPrefix "/" $p) -}}
+{{- end -}}
+{{- return $p -}}
