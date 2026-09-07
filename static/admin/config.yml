@@ -24,9 +24,12 @@ collections:
     label: "Articles"
     label_singular: "article"
     folder: "content/blog"
-    path: "{{category}}/{{slug}}"
+    # Le motif avec date est indispensable : avec "{{category}}/{{slug}}", les
+    # fichiers _index.md des rubriques sont happés par cette collection (puis
+    # masqués), ce qui vide l'écran Catégories. Le préfixe date vient du path,
+    # ne pas ajouter d'option slug (sinon la date est doublée dans le nom).
+    path: "{{category}}/{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     summary: "{{title}} — {{category}} — {{date}}"
     sortable_fields: ["date", "title", "category"]
     view_groups:
