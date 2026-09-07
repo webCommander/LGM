@@ -6,10 +6,14 @@ backend:
   repo: webCommander/LGM
   branch: main
   # Authentification via le fournisseur OAuth de Netlify.
+  # site_domain est obligatoire depuis que le site est servi sur GitHub Pages :
+  # l'OAuth Netlify identifie le site par son domaine, qui doit rester celui du
+  # site Netlify (sinon 404 à la connexion).
   # À remplacer par l'URL du Worker Cloudflare sveltia-cms-auth
   # (https://github.com/sveltia/sveltia-cms-auth) AVANT de supprimer
   # le site Netlify, sinon la connexion à /admin/ ne fonctionnera plus.
   base_url: https://api.netlify.com
+  site_domain: lesgrandesmarches.netlify.app
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
