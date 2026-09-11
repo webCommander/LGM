@@ -80,7 +80,7 @@ Voir [GUIDE_GESTION_CONTENU.md](GUIDE_GESTION_CONTENU.md) — il couvre le nomma
 
 En résumé pour un dev :
 
-1. Créer `content/blog/<categorie>/AAAA-MM-JJ-titre.md` avec son front matter et son champ `category`.
+1. Créer `content/blog/<categorie>/AAAA-MM-JJ-titre.md` avec son front matter.
 2. Déposer les images dans `static/images/<section>/`.
 3. Vérifier le rendu en local (`docker compose up`).
 4. Commit + push sur `main` → déploiement automatique.

@@ -24,28 +24,23 @@ collections:
     label: "Articles"
     label_singular: "article"
     folder: "content/blog"
-    # Le motif avec date est indispensable : avec "{{category}}/{{slug}}", les
-    # fichiers _index.md des rubriques sont happés par cette collection (puis
-    # masqués), ce qui vide l'écran Catégories. Le préfixe date vient du path,
-    # ne pas ajouter d'option slug (sinon la date est doublée dans le nom).
-    path: "{{category}}/{{year}}-{{month}}-{{day}}-{{slug}}"
+    # Collection imbriquée : le sélecteur « Dossier parent » de Sveltia déplace
+    # réellement un article quand sa catégorie change. Le motif daté exclut les
+    # fichiers _index.md des rubriques de la collection Articles.
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    nested:
+      depth: 2
+      summary: "{{title}}"
+      subfolders: false
+    meta:
+      path: {}
+    preview_path: "/blog/{{dirname}}/{{filename}}/"
     create: true
-    summary: "{{title}} — {{category}} — {{date}}"
-    sortable_fields: ["date", "title", "category"]
-    view_groups:
-      - label: "Catégorie"
-        field: "category"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: ["date", "title"]
     fields:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
-      - label: "Catégorie"
-        name: "category"
-        widget: "relation"
-        collection: "categories"
-        value_field: "{{slug}}"
-        display_fields: ["title"]
-        search_fields: ["title"]
-        hint: "Choisissez le voyage auquel rattacher l'article. Pour en ajouter un, utilisez d'abord l'écran Catégories."
       - { label: "Photos de l'article", name: "photos", widget: "image", multiple: true, required: false, hint: "Glissez-déposez une ou plusieurs photos. La première sert de vignette dans les listes ; toutes s'affichent en galerie en haut de l'article." }
       - { label: "Trace GPX de l'étape", name: "gpx", widget: "file", required: false, media_folder: "/static/gpx", public_folder: "/gpx", hint: "Déposez le fichier .gpx de la journée : la carte du parcours s'affichera automatiquement dans l'article." }
       - { label: "Brouillon (ne pas publier sur le site)", name: "draft", widget: "boolean", default: false }

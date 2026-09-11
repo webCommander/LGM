@@ -9,7 +9,7 @@ Le site dispose d'une interface d'administration en ligne (Sveltia CMS), accessi
 1. Ouvrir la page `/admin/` dans le navigateur.
 2. Se connecter avec son compte GitHub (une seule fois, la session est mémorisée).
 3. Ouvrir **Articles**, puis cliquer sur **Nouvel article**.
-4. Remplir le titre et la date, choisir la catégorie, puis écrire le texte.
+4. Choisir la catégorie avec **Dossier parent**, remplir le titre et la date, puis écrire le texte.
 5. Les images s'ajoutent par glisser-déposer directement dans le texte.
 6. Cliquer sur **Enregistrer** : l'article est publié et le site se met à jour tout seul en une ou deux minutes.
 
@@ -29,7 +29,7 @@ Les catégories correspondent aux voyages affichés dans le menu déroulant du s
 
 La nouvelle catégorie apparaît automatiquement dans le menu **Voyages** du site. Pour la masquer temporairement sans la supprimer, activer **Masquer dans le menu**.
 
-Pour écrire dans cette rubrique, ouvrir ensuite **Articles**, créer un article et la sélectionner dans le champ **Catégorie**. Une catégorie doit être créée avant de pouvoir être sélectionnée dans un article.
+Pour écrire dans cette rubrique, ouvrir ensuite **Articles**, entrer dans le dossier de la catégorie, puis créer l'article. Le champ **Dossier parent** permet aussi de choisir la catégorie à la création ou de déplacer un article existant vers une autre catégorie.
 
 ## Outils recommandés
 
@@ -117,7 +117,6 @@ Dans le nom du fichier :
 title: "Départ pour le Jura"
 date: 2026-07-13
 draft: false
-category: autre
 ---
 
 Texte du nouvel article.
@@ -129,7 +128,6 @@ Adapter :
 
 - `title` : titre affiché sur le site ;
 - `date` : date au format `année-mois-jour` ;
-- `category` : nom technique de la catégorie, identique au nom de son dossier ;
 - le texte placé après le second `---`.
 
 Ne pas supprimer les deux lignes `---` qui encadrent les informations de l'article.
